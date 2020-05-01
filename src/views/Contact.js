@@ -1,9 +1,8 @@
 import React from "react";
 
-export default function About() {
+export default function Contact() {
 	return (
 		<div>
-			<h2>About Page</h2>
 			<p>
 				I am a student at the University of British Columbia, studying engineering. In my high school years, I
 				was involved in the FIRST Robotics Competition – a competitive robotics event for students. As founder
@@ -11,6 +10,12 @@ export default function About() {
 				in the Western Canada scene, attending the World Championship in its’ first year of existence.
 				Currently, I am focusing on education while pursuing personal projects on the side.
 			</p>
+			<br />
+			<p>Twitter</p>
+			<p>LinkedIn</p>
+			<p>Instagram</p>
+			<p>GitHub</p>
+			<h2>DMs Open</h2>
 		</div>
 	);
 }

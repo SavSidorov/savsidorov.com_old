@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,
+body,
+#root {
+	margin: 0;
+	font-family: "source-sans-pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#root {
+	--ss-purple: rgb(120, 81, 169);
+	--ss-gold: rgb(215, 182, 41);
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.extralight.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.extralight-italic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.light.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.light-italic.ttf") format("truetype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.regular.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.italic.ttf") format("truetype");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.semibold-italic.ttf") format("truetype");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "source-sans-pro";
+	src: url("./fonts/source-sans-pro.bold-italic.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
 }
