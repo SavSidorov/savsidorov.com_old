@@ -9,9 +9,10 @@ import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
 
-import { Layout } from "./components/Layout";
-import { NavBar } from "./components/NavBar";
 import { Header } from "./components/Header";
+import { NavBar } from "./components/NavBar";
+import { Layout } from "./components/Layout";
+import { Footer } from "./components/Footer";
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 					</Switch>
 				</Router>
 			</Layout>
+			{window.location.pathname !== "/" && <Footer />}
 		</React.Fragment>
 	);
 }
