@@ -4,7 +4,7 @@ export default function Favorites() {
 	return (
 		<div>
 			<h2>Favorites Page</h2>
-			<p>This is a paragraph</p>
+			<p>TODO</p>
 		</div>
 	);
 }

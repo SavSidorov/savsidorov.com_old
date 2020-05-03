@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 const Styles = styled.div`
 	.margins {
-		margin-top: 20px;
+		margin-top: 50px;
 		margin-bottom: 10px;
 	}
 `;

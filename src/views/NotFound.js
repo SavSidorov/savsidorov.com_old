@@ -1,5 +1,7 @@
 import React from "react";
 
+//TODO: Formatting
+
 export default function Contact() {
 	return (
 		<div>

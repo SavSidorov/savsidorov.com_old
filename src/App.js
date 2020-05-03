@@ -14,25 +14,31 @@ import { NavBar } from "./components/NavBar";
 import { Layout } from "./components/Layout";
 import { Footer } from "./components/Footer";
 
+function Routes() {
+	return (
+		<Router>
+			<Switch>
+				<Route exact path="/" component={Home} />
+				<Route exact path="/blog" component={Blog} />
+				<Route exact path="/projects" component={Projects} />
+				<Route exact path="/favorites" component={Favorites} />
+				<Route exact path="/contact" component={Contact} />
+				<Route component={NotFound} />
+			</Switch>
+		</Router>
+	);
+}
+
 function App() {
 	return (
-		<React.Fragment>
+		<div className="App">
 			<Header />
 			<NavBar />
 			<Layout>
-				<Router>
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route exact path="/blog" component={Blog} />
-						<Route exact path="/projects" component={Projects} />
-						<Route exact path="/favorites" component={Favorites} />
-						<Route exact path="/contact" component={Contact} />
-						<Route component={NotFound} />
-					</Switch>
-				</Router>
+				<Routes />
 			</Layout>
 			{window.location.pathname !== "/" && <Footer />}
-		</React.Fragment>
+		</div>
 	);
 }
 

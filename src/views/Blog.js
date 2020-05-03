@@ -1,10 +1,13 @@
 import React from "react";
 
+//TODO: Add metatags
+//TODO: Add sharing feature
+
 export default function Blog() {
 	return (
 		<div>
 			<h2>Blog</h2>
-			<p>This is a paragraph</p>
+			<p>TODO</p>
 		</div>
 	);
 }

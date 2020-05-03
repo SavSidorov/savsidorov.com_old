@@ -21,8 +21,7 @@ const Styles = styled.div`
 	}
 
 	.smaller-logo {
-		height: 5vw;
-		max-height: 40px;
+		max-height: 25px;
 		width: auto;
 	}
 
@@ -30,6 +29,7 @@ const Styles = styled.div`
 		text-decoration: none;
 		color: black;
 		font-weight: 600;
+		font-size: 14px;
 
 		display: flex;
 		flex-flow: column;
@@ -40,18 +40,21 @@ const Styles = styled.div`
 	}
 `;
 
+//TODO: Set up patreon and mailing list, change URLs
+//TODO: Pop-up for mailing list
+
 export const Header = () => (
 	<Styles>
 		<div className="header">
 			<a href="https://www.patreon.com/">
-				<img src={patreon} className="smaller-logo" />
+				<img src={patreon} className="smaller-logo" alt="patreon" />
 				Patreon
 			</a>
 			<a href="/">
-				<img src={logo} className="logo"></img>
+				<img src={logo} className="logo" alt="logo"></img>
 			</a>
 			<a href="https://mail.google.com/mail/u/0/#inbox">
-				<img src={mail} className="smaller-logo" />
+				<img src={mail} className="smaller-logo" alt="mail" />
 				Subscribe
 			</a>
 		</div>

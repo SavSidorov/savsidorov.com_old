@@ -4,7 +4,7 @@ export default function Projects() {
 	return (
 		<div>
 			<h2>Projects Page</h2>
-			<p>This is a paragraph</p>
+			<p>TODO</p>
 		</div>
 	);
 }
