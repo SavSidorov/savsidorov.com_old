@@ -1,6 +1,6 @@
 import React from "react";
-import twitterSvg from "../assets/twitter.svg";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Styles = styled.div`
 	.Footer {
@@ -21,22 +21,34 @@ const Styles = styled.div`
 		color: white;
 	}
 
-	.feedback {
+	.copyright {
 		margin-right: auto;
 	}
 
-	.twitter {
-		width: 20px;
-		height: auto;
+	.social {
+		margin-left: 0px;
+
+		&:hover {
+			color: var(--ss-purple);
+		}
 	}
 `;
 
 export const Footer = () => (
 	<Styles>
 		<div className="Footer">
-			<p className="feedback">Copyright © 2020 Sav Sidorov</p>
-			<a href="https://twitter.com/savsidorov" className="twitter">
-				<img src={twitterSvg} alt="twitter" />
+			<p className="copyright">Copyright © 2020 Sav Sidorov</p>
+			<a href="https://twitter.com/savsidorov" className="social">
+				<FontAwesomeIcon icon={["fab", "twitter"]} />
+			</a>
+			<a href="https://www.linkedin.com/in/savsidorov/" className="social">
+				<FontAwesomeIcon icon={["fab", "linkedin"]} />
+			</a>
+			<a href="https://github.com/SavSidorov" className="social">
+				<FontAwesomeIcon icon={["fab", "github"]} />
+			</a>
+			<a href="https://www.instagram.com/savsidorov/" className="social">
+				<FontAwesomeIcon icon={["fab", "instagram"]} />
 			</a>
 		</div>
 	</Styles>

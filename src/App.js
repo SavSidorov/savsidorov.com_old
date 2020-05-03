@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //FontAwesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 //Views
 import Home from "./views/Home";
 import Blog from "./views/Blog";
@@ -19,7 +19,7 @@ import { NavBar } from "./components/NavBar";
 import { Layout } from "./components/Layout";
 import { Footer } from "./components/Footer";
 
-library.add(fab, faCoffee);
+library.add(fab, fas);
 
 function Routes() {
 	return (

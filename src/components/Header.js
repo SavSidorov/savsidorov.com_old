@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../assets/logo.jpg";
-import patreon from "../assets/patreon-black.svg";
-import mail from "../assets/mail.svg";
 
 const Styles = styled.div`
 	.header {
@@ -33,6 +32,7 @@ const Styles = styled.div`
 
 		display: flex;
 		flex-flow: column;
+		align-items: center;
 
 		&:hover {
 			color: var(--ss-purple);
@@ -47,14 +47,14 @@ export const Header = () => (
 	<Styles>
 		<div className="header">
 			<a href="https://www.patreon.com/">
-				<img src={patreon} className="smaller-logo" alt="patreon" />
+				<FontAwesomeIcon icon={["fab", "patreon"]} size="3x" />
 				Patreon
 			</a>
 			<a href="/">
 				<img src={logo} className="logo" alt="logo"></img>
 			</a>
 			<a href="https://mail.google.com/mail/u/0/#inbox">
-				<img src={mail} className="smaller-logo" alt="mail" />
+				<FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
 				Subscribe
 			</a>
 		</div>
