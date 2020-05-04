@@ -17,7 +17,7 @@ const Styles = styled.div`
 
 	.contact > p > a {
 		text-decoration: none;
-		color: var(--ss-purple);
+		color: var(--ss-primary);
 		font-weight: 500;
 	}
 
@@ -34,7 +34,7 @@ const Styles = styled.div`
 		color: black;
 
 		&:hover {
-			color: var(--ss-purple);
+			color: var(--ss-primary);
 		}
 	}
 `;

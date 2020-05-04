@@ -29,7 +29,7 @@ const Styles = styled.div`
 		margin-left: 0px;
 
 		&:hover {
-			color: var(--ss-purple);
+			color: var(--ss-primary);
 		}
 	}
 `;

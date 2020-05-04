@@ -35,7 +35,7 @@ const Styles = styled.div`
 		align-items: center;
 
 		&:hover {
-			color: var(--ss-purple);
+			color: var(--ss-primary);
 		}
 	}
 `;

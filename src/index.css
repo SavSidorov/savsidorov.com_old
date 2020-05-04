@@ -15,8 +15,8 @@ code {
 }
 
 #root {
-	--ss-purple: rgb(120, 81, 169);
-	--ss-gold: rgb(215, 182, 41);
+	--ss-primary: rgb(120, 81, 169);
+	--ss-alternative: rgb(215, 182, 41);
 }
 
 @font-face {

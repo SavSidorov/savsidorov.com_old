@@ -15,7 +15,7 @@ const Styles = styled.div`
 		font-weight: 500;
 
 		&:hover {
-			color: var(--ss-purple);
+			color: var(--ss-primary);
 		}
 	}
 `;

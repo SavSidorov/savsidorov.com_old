@@ -8,7 +8,11 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 //Views
 import Home from "./views/Home";
+
 import Blog from "./views/Blog";
+import Post1 from "./views/blogposts/2019-01-07/post";
+import Post2 from "./views/blogposts/2019-01-17/post";
+
 import Projects from "./views/Projects";
 import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
@@ -26,7 +30,11 @@ function Routes() {
 		<Router>
 			<Switch>
 				<Route exact path="/" component={Home} />
+
 				<Route exact path="/blog" component={Blog} />
+				<Route exact path="/blog/attachment" component={Post1} />
+				<Route exact path="/blog/victimhood" component={Post2} />
+
 				<Route exact path="/projects" component={Projects} />
 				<Route exact path="/favorites" component={Favorites} />
 				<Route exact path="/contact" component={Contact} />
