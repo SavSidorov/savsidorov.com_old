@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import MetaTags from "react-meta-tags";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import resume from "../assets/ssidorov_cv.pdf";
@@ -42,6 +43,9 @@ const Styles = styled.div`
 export default function Contact() {
 	return (
 		<Styles>
+			<MetaTags>
+				<title>About / Contact</title>
+			</MetaTags>
 			<div className="contact">
 				<p>
 					I am a student at the University of British Columbia, studying engineering. In high school, I was

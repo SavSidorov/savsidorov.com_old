@@ -14,6 +14,7 @@ import Post2 from "./views/blogposts/2019-01-17/post";
 import Projects from "./views/Projects";
 import Project1 from "./views/projects/2017-02/post";
 import Project2 from "./views/projects/2018-07/post";
+import Project3 from "./views/projects/2019-01/post";
 import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
@@ -40,6 +41,7 @@ function Routes() {
 				<Route exact path="/projects" component={Projects} />
 				<Route exact path="/projects/toggle" component={Project1} />
 				<Route exact path="/projects/flamebot" component={Project2} />
+				<Route exact path="/projects/bytecycler" component={Project3} />
 
 				<Route exact path="/favorites" component={Favorites} />
 				<Route exact path="/contact" component={Contact} />
