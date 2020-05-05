@@ -8,12 +8,12 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 //Views
 import Home from "./views/Home";
-
 import Blog from "./views/Blog";
 import Post1 from "./views/blogposts/2019-01-07/post";
 import Post2 from "./views/blogposts/2019-01-17/post";
-
 import Projects from "./views/Projects";
+import Project1 from "./views/projects/2017-02/post";
+import Project2 from "./views/projects/2018-07/post";
 import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
@@ -38,6 +38,9 @@ function Routes() {
 				<Route exact path="/blog/victimhood" component={Post2} />
 
 				<Route exact path="/projects" component={Projects} />
+				<Route exact path="/projects/toggle" component={Project1} />
+				<Route exact path="/projects/flamebot" component={Project2} />
+
 				<Route exact path="/favorites" component={Favorites} />
 				<Route exact path="/contact" component={Contact} />
 				<Route component={NotFound} />

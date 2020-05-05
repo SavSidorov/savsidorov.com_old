@@ -36,14 +36,14 @@ const Styles = styled.div`
 
 	@media (min-width: 700px), (min-aspect-ratio: 1/1) {
 		.BlogCard > a > img {
-			width: 35vw;
+			width: 30vw;
 			height: auto;
 		}
 	}
 
 	@media (max-width: 700px), (max-aspect-ratio: 1/1) {
 		.BlogCard > a > img {
-			width: 350px;
+			width: 250px;
 			height: auto;
 		}
 
