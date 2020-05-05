@@ -18,6 +18,10 @@ const Styles = styled.div`
 			color: var(--ss-primary);
 		}
 	}
+
+	.navbar-nav .nav-link.active {
+		color: var(--ss-primary);
+	}
 `;
 
 export const NavBar = () => (
@@ -25,19 +29,11 @@ export const NavBar = () => (
 		<Navbar expand="lg">
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
-				<Nav className="mlr-auto">
-					<Nav.Item>
-						<Nav.Link href="/blog">Blog</Nav.Link>
-					</Nav.Item>
-					<Nav.Item>
-						<Nav.Link href="/projects">Projects</Nav.Link>
-					</Nav.Item>
-					<Nav.Item>
-						<Nav.Link href="/favorites">Favorites</Nav.Link>
-					</Nav.Item>
-					<Nav.Item>
-						<Nav.Link href="/contact">About / Contact</Nav.Link>
-					</Nav.Item>
+				<Nav activeKey={window.location.pathname} className="mlr-auto">
+					<Nav.Link href="/blog">Blog</Nav.Link>
+					<Nav.Link href="/projects">Projects</Nav.Link>
+					<Nav.Link href="/favorites">Favorites</Nav.Link>
+					<Nav.Link href="/contact">About / Contact</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

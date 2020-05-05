@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 const Styles = styled.div`
 	.BlogCard {
-		height: 50vw;
 		width: 50vw;
 		max-height: 500px;
 		max-width: 500px;
@@ -34,26 +33,13 @@ const Styles = styled.div`
 		color: black;
 	}
 
-	@media (min-width: 700px), (min-aspect-ratio: 1/1) {
-		.BlogCard > a > img {
-			width: 30vw;
-			height: auto;
-		}
+	.BlogCard > a > img {
+		width: 40vw;
+		max-width: 450px;
+		height: auto;
+		margin-bottom: 1.5vw;
 	}
 
-	@media (max-width: 700px), (max-aspect-ratio: 1/1) {
-		.BlogCard > a > img {
-			width: 250px;
-			height: auto;
-		}
-
-		.BlogCard > a > div > h4 {
-			font-size: 15px;
-		}
-
-		.BlogCard > a > div > p {
-			font-size: 10px;
-		}
 	}
 `;
 
