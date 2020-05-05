@@ -18,6 +18,7 @@ import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
 //Components
+import ScrollToTop from "./components/ScrollToTop";
 import { Header } from "./components/Header";
 import { NavBar } from "./components/NavBar";
 import { Layout } from "./components/Layout";
@@ -28,6 +29,7 @@ library.add(fab, fas);
 function Routes() {
 	return (
 		<Router>
+			<ScrollToTop />
 			<Switch>
 				<Route exact path="/" component={Home} />
 
