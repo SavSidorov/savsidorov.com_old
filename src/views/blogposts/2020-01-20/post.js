@@ -113,7 +113,9 @@ export default function Post6() {
 					— “I’ve put money into this product / have frequently used this service, therefore it’s worth
 					defending”. That’s why the positive reviews outweigh the negative ones. J-curve.
 				</p>
-				<h4>A Solution?</h4>
+				<div>
+					<h4>A Solution?</h4>
+				</div>
 				<p>
 					To the extent that the J-curved distribution of ratings is a biased representation of the opinion of
 					the crowd, we have a problem. While there’s no way to completely get rid of under-reporting and

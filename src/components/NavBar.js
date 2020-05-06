@@ -32,7 +32,6 @@ export const NavBar = () => (
 				<Nav activeKey={window.location.pathname} className="mlr-auto">
 					<Nav.Link href="/blog">Blog</Nav.Link>
 					<Nav.Link href="/projects">Projects</Nav.Link>
-					<Nav.Link href="/favorites">Favorites</Nav.Link>
 					<Nav.Link href="/contact">About / Contact</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>

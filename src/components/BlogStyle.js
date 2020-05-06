@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
 const BlogStyle = styled.div`
+	div {
+		width: 100%;
+	}
+
+	h4 {
+		margin-top: 30px;
+	}
+
 	.metadata {
 		color: grey;
 		font-size: 24px;
