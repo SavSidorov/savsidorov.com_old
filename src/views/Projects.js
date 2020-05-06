@@ -15,7 +15,7 @@ const Styles = styled.div`
 `;
 
 export default function Projects() {
-	const posts = ["2019-01", "2018-07", "2017-02"];
+	const posts = ["2019-01", "2018-07", "2017-02", "2016-02"];
 	const [cards, setCards] = useState([]);
 
 	async function fetchProjects() {

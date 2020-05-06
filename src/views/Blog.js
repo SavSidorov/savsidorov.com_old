@@ -15,7 +15,7 @@ const Styles = styled.div`
 `;
 
 export default function Blog() {
-	const posts = ["2019-01-17", "2019-01-07"];
+	const posts = ["2020-01-20", "2019-04-03", "2019-04-02", "2019-02-26", "2019-01-17", "2019-01-07"];
 	const [cards, setCards] = useState([]);
 
 	async function fetchBlogs() {

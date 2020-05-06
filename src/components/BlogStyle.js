@@ -17,7 +17,8 @@ const BlogStyle = styled.div`
 		font-size: 20px;
 	}
 
-	.post > p > a {
+	.post > p > a,
+	.post > p > i > a {
 		text-decoration: none;
 		color: var(--ss-primary);
 		font-weight: 500;
@@ -39,7 +40,7 @@ const BlogStyle = styled.div`
 
 	.image {
 		width: 100vw;
-		max-width: 800px;
+		max-width: 600px;
 		height: auto;
 		margin-bottom: 30px;
 	}
