@@ -35,7 +35,7 @@ export default function Blog() {
 				readingtime: metadata.default.readingtime,
 			});
 		}
-		console.log(postInfo);
+
 		const cards = postInfo.map((card) => (
 			<BlogCard
 				key={card.id}

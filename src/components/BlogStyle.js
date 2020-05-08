@@ -21,12 +21,11 @@ const BlogStyle = styled.div`
 		align-items: center;
 	}
 
-	.post > p {
+	p {
 		font-size: 20px;
 	}
 
-	.post > p > a,
-	.post > p > i > a {
+	a {
 		text-decoration: none;
 		color: var(--ss-primary);
 		font-weight: 500;

@@ -4,8 +4,6 @@ import MetaTags from "react-meta-tags";
 import BlogCard from "../components/BlogCard";
 import triple from "../assets/triple.png";
 
-//TODO: Add sharing feature
-
 const Styles = styled.div`
 	.Projects {
 		display: flex;
@@ -35,7 +33,7 @@ export default function Projects() {
 				readingtime: metadata.default.readingtime,
 			});
 		}
-		console.log(postInfo);
+
 		const cards = postInfo.map((card) => (
 			<BlogCard
 				key={card.id}

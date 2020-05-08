@@ -40,20 +40,17 @@ const Styles = styled.div`
 	}
 `;
 
-//TODO: Set up patreon and mailing list, change URLs
-//TODO: Pop-up for mailing list
-
 export const Header = () => (
 	<Styles>
 		<div className="header">
-			<a href="https://www.patreon.com/">
+			<a href="https://www.patreon.com/savsidorov">
 				<FontAwesomeIcon icon={["fab", "patreon"]} size="3x" />
 				Patreon
 			</a>
 			<a href="/">
 				<img src={logo} className="logo" alt="logo"></img>
 			</a>
-			<a href="https://mail.google.com/mail/u/0/#inbox">
+			<a href="https://savsidorov.ck.page/1f6223496e">
 				<FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
 				Subscribe
 			</a>
