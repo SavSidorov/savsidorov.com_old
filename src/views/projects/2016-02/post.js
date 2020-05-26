@@ -1,6 +1,5 @@
 import React from "react";
 import BlogStyle from "../../../components/BlogStyle";
-import MetaTags from "react-meta-tags";
 import metadata from "./metadata.json";
 import robot from "./preview.png";
 import logo from "./APEXLogo.jpg";
@@ -9,27 +8,15 @@ import team from "./team.jpg";
 export default function Project0() {
 	return (
 		<BlogStyle>
-			<MetaTags>
-				<title>{metadata.title}</title>
-				<meta property="og:title" content={metadata.title} />
-				<meta name="og:description" content={metadata.description} />
-				<meta property="og:image" content={robot} />
-				<meta property="og:url" content={metadata.url} />
-				<meta name="twitter:title" content={metadata.title} />
-				<meta name="twitter:description" content={metadata.description} />
-				<meta name="twitter:image" content={robot} />
-				<meta name="twitter:card" content="summary_large_image" />
-			</MetaTags>
 			<h2>{metadata.title}</h2>
 			<h3 className="metadata">{metadata.date}</h3>
 			<div className="post">
 				<img src={robot} className="image" alt="robot" />
 				<p>
 					Built with Team 5897 – APEX Robotics for the 2016{" "}
-					<a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics Competition</a>. Executed
-					pre-programed autonomous functions and could be human controlled. The bot was capable of catching
-					and shooting foam balls, raising obstacles with the front arm and climbing up a bar with a
-					telescoping mechanism.
+					<a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics Competition</a>. Executed pre-programed
+					autonomous functions and could be human controlled. The bot was capable of catching and shooting foam balls,
+					raising obstacles with the front arm and climbing up a bar with a telescoping mechanism.
 				</p>
 				<div className="color-box">
 					<p>
@@ -47,8 +34,8 @@ export default function Project0() {
 						written about us!
 					</p>
 					<p>
-						• Lastly, the <a href="https://www.facebook.com/apexrobotics/">APEX Robotics Facebook page</a>.
-						APEX is currently inactive – it was a team we ran for two FRC seasons, 2016 and 2017.
+						• Lastly, the <a href="https://www.facebook.com/apexrobotics/">APEX Robotics Facebook page</a>. APEX is
+						currently inactive – it was a team we ran for two FRC seasons, 2016 and 2017.
 					</p>
 				</div>
 				<img src={logo} className="image" alt="logo" />
