@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../assets/logo.jpg";
 
 const Styles = styled.div`
 	.header {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 
 		margin: 50px;
 		margin-bottom: 10px;
@@ -43,17 +42,21 @@ const Styles = styled.div`
 export const Header = () => (
 	<Styles>
 		<div className="header">
-			<a href="https://www.patreon.com/savsidorov">
-				<FontAwesomeIcon icon={["fab", "patreon"]} size="3x" />
-				Patreon
-			</a>
 			<a href="/">
 				<img src={logo} className="logo" alt="logo"></img>
-			</a>
-			<a href="https://savsidorov.ck.page/1f6223496e">
-				<FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
-				Subscribe
 			</a>
 		</div>
 	</Styles>
 );
+
+/* TODO: Set up subscription and monitization ON SITE
+<a href="https://www.patreon.com/savsidorov">
+				<FontAwesomeIcon icon={["fab", "patreon"]} size="3x" />
+				Patreon
+			</a>
+
+<a href="https://savsidorov.ck.page/1f6223496e">
+				<FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
+				Subscribe
+			</a>
+*/

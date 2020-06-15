@@ -37,8 +37,6 @@ Books:
 	- GEB
 	- The Things They Carried
 	- Call Me By Your Name
-	- Looking For Alaska
-	- The Killing Joke
 
 Films:
 	- Donnie Darko
@@ -70,41 +68,30 @@ Films:
 Albums:
 	- Eminem Show
 	- Oxnard
-	- Malibu
-	- 2001
 	- Compton
 	- TPAB
 	- Love Story
-	- 0
 	- Blank Face
 	- Thriller
-	- Good Thing
 	- Outrun
 	- Discovery
 	- RAM
-	- Hideout
 	- Time Machine
 	- Things That Happen ...
 	- Blonde
-	- Endless
 	- The Times They Are A-Changing
 	- Pastel Blues
 	- Kids See Ghosts
+	- Yeezus
 	- At Folsom Prison
-	- At Bubokan
-	- All You Can Do
-	- Starboy
-	- My Dear Melancholy, 
-	- RTJ2
+	- At Budokan
 	- HEALTH
 	- Assume Form
 	- CLPPNG
-	- Trust In The Lifeforce... 
 	- I Love You, Honeybear
 	- Only Diamonds Cut Diamonds
 	- Skeleton Tree
 	- Distant Sky (Live)
-	- Nothing But The Best
 
 Games:
 	- Bioshock
@@ -112,7 +99,4 @@ Games:
 	- Walking Dead S1
 	- Spec Ops: The Line
 	- Half Life 2
-	- The Stanly Parable
-	- Far Cry 3 / Blood Dragon
-
 */

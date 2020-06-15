@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import MetaTags from "react-meta-tags";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
-import resume from "../assets/ssidorov_cv.pdf";
 
 const Styles = styled.div`
 	.contact {
@@ -44,22 +42,9 @@ export default function Contact() {
 	return (
 		<Styles>
 			<MetaTags>
-				<title>About / Contact</title>
+				<title>Contact</title>
 			</MetaTags>
 			<div className="contact">
-				<p>
-					I am a student at the University of British Columbia, studying engineering. In high school, I was
-					involved in the FIRST Robotics Competition – a competitive robotics event for students. As founder
-					and team captain of{" "}
-					<a href="https://www.thebluealliance.com/team/5897">Team 5897 – APEX Robotics</a>, I helped the team
-					become one of the best performing teams in the Western Canada scene, attending the World
-					Championship in its’ first year of existence. Currently, I am focusing on education while pursuing{" "}
-					<Link to="/projects">personal projects on the side</Link>. Interested in physics, cognition and
-					sensemaking.
-				</p>
-				<p>
-					<a href={resume}>My resume</a>.
-				</p>
 				<div className="icons">
 					<a href="https://twitter.com/savsidorov">
 						<FontAwesomeIcon icon={["fab", "twitter"]} size="6x" />

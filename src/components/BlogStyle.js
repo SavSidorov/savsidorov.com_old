@@ -36,7 +36,7 @@ const BlogStyle = styled.div`
 		padding: 15px;
 		margin-top: 30px;
 		margin-bottom: 30px;
-		outline: 5px solid var(--ss-primary);
+		outline: 2px solid var(--ss-primary);
 	}
 
 	.color-box > p > a {
@@ -48,6 +48,20 @@ const BlogStyle = styled.div`
 	.image {
 		width: 100vw;
 		max-width: 600px;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	.image-medium {
+		width: 100vw;
+		max-width: 300px;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	.image-small {
+		width: 100vw;
+		max-width: 150px;
 		height: auto;
 		margin-bottom: 30px;
 	}

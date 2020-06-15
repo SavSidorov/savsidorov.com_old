@@ -27,7 +27,6 @@ const Styles = styled.div`
 		flex-flow: column;
 		height: 100%;
 		align-items: center;
-		justify-content: space-evenly;
 
 		text-decoration: none;
 		color: black;
@@ -38,6 +37,13 @@ const Styles = styled.div`
 		max-width: 450px;
 		height: auto;
 		margin-bottom: 1.5vw;
+	}
+
+	.BlogCard > a > div {
+		display: flex;
+		flex-flow: column;
+		height: 100%;
+		align-items: center;
 	}
 
 	}

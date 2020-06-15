@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import MetaTags from "react-meta-tags";
 import BlogCard from "../components/BlogCard";
-import triple from "../assets/triple.png";
 
 const Styles = styled.div`
 	.Projects {
@@ -13,7 +11,7 @@ const Styles = styled.div`
 `;
 
 export default function Projects() {
-	const posts = ["2019-01", "2018-07", "2017-02", "2016-02"];
+	const posts = ["2020-06", "2020-05", "2018-12", "2018-11", "2018-07", "2017-02", "2016-02", "2015-02"];
 	const [cards, setCards] = useState([]);
 
 	async function fetchProjects() {
@@ -56,17 +54,8 @@ export default function Projects() {
 	return (
 		<Styles>
 			<div className="Projects">
-				<MetaTags>
-					<title>Projects</title>
-					<meta property="og:title" content="Sav Sidorov - Projects" />
-					<meta name="og:description" content="Projects" />
-					<meta property="og:image" content={triple} />
-					<meta property="og:url" content="http://savsidorov.com/projects" />
-					<meta name="twitter:title" content="Sav Sidorov - Projects" />
-					<meta name="twitter:description" content="Projects" />
-					<meta name="twitter:image" content={triple} />
-					<meta name="twitter:card" content="summary_large_image" />
-				</MetaTags>
+				<title>Projects</title>
+
 				{cards.length ? <div>{cards}</div> : <p>Loading...</p>}
 			</div>
 		</Styles>

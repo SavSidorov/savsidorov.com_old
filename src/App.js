@@ -16,12 +16,17 @@ import Post4 from "./views/blogposts/2019-04-02/post";
 import Post5 from "./views/blogposts/2019-04-03/post";
 import Post6 from "./views/blogposts/2020-01-20/post";
 import Projects from "./views/Projects";
+import ATA from "./views/projects/2015-02/post";
 import Project0 from "./views/projects/2016-02/post";
 import Project1 from "./views/projects/2017-02/post";
 import Project2 from "./views/projects/2018-07/post";
-import Project3 from "./views/projects/2019-01/post";
+import Project3 from "./views/projects/2018-11/post";
+import Project4 from "./views/projects/2018-12/post";
+import Project5 from "./views/projects/2020-05/post";
+import Project6 from "./views/projects/2020-06/post";
 import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
+import About from "./views/About";
 import NotFound from "./views/NotFound";
 //Components
 import ScrollToTop from "./components/ScrollToTop";
@@ -48,13 +53,18 @@ function Routes() {
 				<Route exact path="/blog/jcurves" component={Post6} />
 
 				<Route exact path="/projects" component={Projects} />
+				<Route exact path="/projects/elevation" component={ATA} />
 				<Route exact path="/projects/impulse" component={Project0} />
 				<Route exact path="/projects/toggle" component={Project1} />
 				<Route exact path="/projects/flamebot" component={Project2} />
-				<Route exact path="/projects/bytecycler" component={Project3} />
+				<Route exact path="/projects/sensemaking" component={Project3} />
+				<Route exact path="/projects/bytecycler" component={Project4} />
+				<Route exact path="/projects/atomicevents" component={Project5} />
+				<Route exact path="/projects/peoplelist" component={Project6} />
 
 				<Route exact path="/favorites" component={Favorites} />
 				<Route exact path="/contact" component={Contact} />
+				<Route exact path="/about" component={About} />
 				<Route component={NotFound} />
 			</Switch>
 		</Router>
