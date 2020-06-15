@@ -62,7 +62,7 @@ export default function Project3() {
 						• Taking inspiration from Max Krieger’s <a href="http://a9.io/glue-comic/page-2">Glue Comic</a>, I’ve been
 						experimenting with having conversations with friends in the format Max described — pushing and popping
 						between topics rather than following a linear path. I’m curious if making it easy for people to visualize
-						all the tangents in a convo would enable people to have more productive ones.
+						all the tangents in a convo would enable us to have more productive ones. I'm using Roam Research for this.
 					</p>
 				</div>
 
