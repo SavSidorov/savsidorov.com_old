@@ -1,7 +1,8 @@
 import React from "react";
 import BlogStyle from "../../../components/BlogStyle";
 import metadata from "./metadata.json";
-import drawing from "./preview.png";
+import userProfile from "./preview.png";
+import johnDoe from "./peoplelist_jd1.png";
 
 export default function Project6() {
 	return (
@@ -10,12 +11,12 @@ export default function Project6() {
 			<h3 className="metadata">{metadata.date}</h3>
 			<div className="post">
 				<div>
-					<p>All I have for this one so far are some very rough concept drawings.</p>
+					<p>All I have for this one so far are some early concept drawings and key ideas:</p>
 				</div>
 				<br />
-				<div>
-					<p>Key ideas:</p>
-				</div>
+				<img src={userProfile} className="image" alt="userProfile" />
+				<img src={johnDoe} className="image" alt="johnDoe" />
+
 				<div className="color-box">
 					<p>
 						• Users can create lists of people they recommend in a particular field — based on their own perceptions of
@@ -28,7 +29,6 @@ export default function Project6() {
 					</p>
 					<p>• The aggregate of all users’ list placements is shown on the page of the person in question.</p>
 				</div>
-				<img src={drawing} className="image" alt="drawing" />
 			</div>
 		</BlogStyle>
 	);
