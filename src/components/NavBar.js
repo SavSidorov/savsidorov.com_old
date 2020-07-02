@@ -30,7 +30,7 @@ export const NavBar = () => (
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav activeKey={window.location.pathname} className="mlr-auto">
-					<Nav.Link href="/blog">Blog</Nav.Link>
+					<Nav.Link href="https://savsidorov.substack.com/">Blog</Nav.Link>
 					<Nav.Link href="/projects">Projects</Nav.Link>
 					<Nav.Link href="/about">About</Nav.Link>
 					<Nav.Link href="/contact">Contact</Nav.Link>

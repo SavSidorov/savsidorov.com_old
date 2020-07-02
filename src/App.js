@@ -8,13 +8,6 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 //Views
 import Home from "./views/Home";
-import Blog from "./views/Blog";
-import Post1 from "./views/blogposts/2019-01-07/post";
-import Post2 from "./views/blogposts/2019-01-17/post";
-import Post3 from "./views/blogposts/2019-02-26/post";
-import Post4 from "./views/blogposts/2019-04-02/post";
-import Post5 from "./views/blogposts/2019-04-03/post";
-import Post6 from "./views/blogposts/2020-01-20/post";
 import Projects from "./views/Projects";
 import ATA from "./views/projects/2015-02/post";
 import Project0 from "./views/projects/2016-02/post";
@@ -43,14 +36,6 @@ function Routes() {
 			<ScrollToTop />
 			<Switch>
 				<Route exact path="/" component={Home} />
-
-				<Route exact path="/blog" component={Blog} />
-				<Route exact path="/blog/attachment" component={Post1} />
-				<Route exact path="/blog/victimhood" component={Post2} />
-				<Route exact path="/blog/control" component={Post3} />
-				<Route exact path="/blog/theism" component={Post4} />
-				<Route exact path="/blog/freewill" component={Post5} />
-				<Route exact path="/blog/jcurves" component={Post6} />
 
 				<Route exact path="/projects" component={Projects} />
 				<Route exact path="/projects/elevation" component={ATA} />
