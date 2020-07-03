@@ -52,6 +52,13 @@ const BlogStyle = styled.div`
 		margin-bottom: 30px;
 	}
 
+	.image-large {
+		width: 100vw;
+		max-width: 800px;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
 	.image-medium {
 		width: 100vw;
 		max-width: 300px;

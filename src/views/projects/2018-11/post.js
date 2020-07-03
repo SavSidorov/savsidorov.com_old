@@ -40,7 +40,7 @@ export default function Project3() {
 
 				<div>
 					<Link to="/projects/peoplelist">
-						<h4>3. People List — June 2020</h4>
+						<h4>3. Verify — June 2020</h4>
 					</Link>
 				</div>
 				<p>
