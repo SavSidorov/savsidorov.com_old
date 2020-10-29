@@ -34,7 +34,7 @@ const Styles = styled.div`
 
 	.BlogCard > a > img {
 		width: 40vw;
-		max-width: 450px;
+		max-width: 400px;
 		height: auto;
 		margin-bottom: 1.5vw;
 	}

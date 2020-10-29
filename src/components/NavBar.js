@@ -31,6 +31,7 @@ export const NavBar = () => (
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav activeKey={window.location.pathname} className="mlr-auto">
 					<Nav.Link href="https://savsidorov.substack.com/">Blog</Nav.Link>
+					<Nav.Link href="/podcasts">Podcasts</Nav.Link>
 					<Nav.Link href="/projects">Projects</Nav.Link>
 					<Nav.Link href="/about">About</Nav.Link>
 					<Nav.Link href="/contact">Contact</Nav.Link>

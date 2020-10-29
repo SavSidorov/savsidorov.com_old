@@ -8,6 +8,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 //Views
 import Home from "./views/Home";
+import Podcasts from "./views/Podcasts";
 import Projects from "./views/Projects";
 import ATA from "./views/projects/2015-02/post";
 import Project0 from "./views/projects/2016-02/post";
@@ -36,6 +37,8 @@ function Routes() {
 			<ScrollToTop />
 			<Switch>
 				<Route exact path="/" component={Home} />
+
+				<Route exact path="/podcasts" component={Podcasts} />
 
 				<Route exact path="/projects" component={Projects} />
 				<Route exact path="/projects/elevation" component={ATA} />
