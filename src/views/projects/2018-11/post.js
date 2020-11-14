@@ -66,11 +66,7 @@ export default function Project3() {
 					</p>
 				</div>
 
-				<p>
-					<b>It’s important to note:</b> The ByteCycler and Atomic Events prototypes were built on false assumptions of
-					what users wanted out of a sensemaking platform, and — in the case of BC — without a clear audience in mind. I
-					think that both ideas still show promise, perhaps they need some adjustment.
-				</p>
+				
 			</div>
 		</BlogStyle>
 	);
