@@ -18,6 +18,8 @@ import Project3 from "./views/projects/2018-11/post";
 import Project4 from "./views/projects/2018-12/post";
 import Project5 from "./views/projects/2020-05/post";
 import Project6 from "./views/projects/2020-06/post";
+import Project7 from "./views/projects/2020-11/post";
+import Project8 from "./views/projects/2020-12/post";
 import Favorites from "./views/Favorites";
 import Contact from "./views/Contact";
 import About from "./views/About";
@@ -49,6 +51,8 @@ function Routes() {
 				<Route exact path="/projects/bytecycler" component={Project4} />
 				<Route exact path="/projects/atomicevents" component={Project5} />
 				<Route exact path="/projects/peoplelist" component={Project6} />
+				<Route exact path="/projects/interhackt" component={Project7} />
+				<Route exact path="/projects/bookpair" component={Project8} />
 
 				<Route exact path="/favorites" component={Favorites} />
 				<Route exact path="/contact" component={Contact} />

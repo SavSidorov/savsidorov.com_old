@@ -47,26 +47,7 @@ export default function Project3() {
 					Early into developing this. The idea is to let users create lists of people they recommend or don’t recommend
 					in a given field. We all hold in our heads people who we think are credible and have good track records and
 					those that do not. This would be a way for people to recommend experts in a given domain.
-				</p>
-				<br />
-				<div>
-					<p>In addition, I’ve been doing more informal research that might turn into future ideas:</p>
-				</div>
-				<div className="color-box">
-					<p>
-						• Getting as involved as I can in the Roam Research community — seems like it’s the epicenter for creative,
-						new ways to present information and do research — to a) identify any areas where I can be useful and b) get
-						better intuitions for conducting research by using the platform to make sense of current events.
-					</p>
-					<p>
-						• Taking inspiration from Max Krieger’s <a href="http://a9.io/glue-comic/page-2">Glue Comic</a>, I’ve been
-						experimenting with having conversations with friends in the format Max described — pushing and popping
-						between topics rather than following a linear path. I’m curious if making it easy for people to visualize
-						all the tangents in a convo would enable us to have more productive ones. I'm using Roam Research for this.
-					</p>
-				</div>
-
-				
+				</p>				
 			</div>
 		</BlogStyle>
 	);

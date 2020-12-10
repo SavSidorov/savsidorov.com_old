@@ -19,8 +19,8 @@ export default function Project2() {
 					it with a{" "}
 					<a href="https://www.amazon.ca/gp/product/B07115X6KL/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1">
 						Flysky FS-i6X RC Transmitter and FS-iA10B Receiver
-					</a>
-					combination. Flamethrower runs on diesel and a standard electric fuel pump. Check out video{" "}
+					</a> 
+					{" "}combination. Flamethrower runs on diesel and a standard electric fuel pump. Check out video{" "}
 					<a href="https://www.instagram.com/p/BljsfvEhmIK/?taken-by=savsidorov">here</a>!
 				</p>
 				<img src={workshop} className="image" alt="workshop" />
