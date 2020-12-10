@@ -14,7 +14,7 @@ export default function Project8() {
 				<p>Access it at <a href="https://bookpair.space/">bookpair.space</a>!</p>
 				<p>Here's a video explaining how it works:</p></div>
 				<iframe 
-						width="560" 
+						width="400" 
 						height="315" 
 						title="BookPair"
 						src="https://www.youtube.com/embed/7Styu_-8ii4" 	

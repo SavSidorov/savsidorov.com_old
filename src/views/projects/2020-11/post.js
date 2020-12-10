@@ -28,8 +28,8 @@ export default function Project7() {
 					<br/>
 				</div>
 				<iframe 
-					width="560" 
-					height="315" 
+					width="400" 
+					height="315"
 					title="The Future of Learning"
 					src="https://www.youtube.com/embed/Gtvww68rEcQ" 
 					frameborder="0" 
