@@ -19,7 +19,7 @@ export default function About() {
 				</p>
 				<div>
 					<p>
-						<a href={resume}>My resume</a> (not up to date).
+						<a href={resume}>My resume</a>.
 					</p>
 				</div>
 			</div>
