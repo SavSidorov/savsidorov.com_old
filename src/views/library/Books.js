@@ -38,9 +38,6 @@ export default function Articles() {
 				<p><b><a href="https://www.goodreads.com/book/show/25541028-elon-musk">Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a></b> — Ashlee Vance</p>
 				<p><b><a href="https://www.academia.edu/38433249/Principia_Politica">Principia Politica</a></b> — Nassim Nicholas Taleb</p>
 				<p><b><a href="https://www.goodreads.com/book/show/31170723-behave">Behave</a></b> — Robert Sapolsky</p>
-				
-
-			
 			</div>
 		</Styles>
 	);

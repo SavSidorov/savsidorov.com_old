@@ -8,7 +8,9 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 //Views
 import Home from "./views/Home";
+import Blog from "./views/Blog";
 import Podcasts from "./views/Podcasts";
+
 import Projects from "./views/Projects";
 import ATA from "./views/projects/2015-02/post";
 import Project0 from "./views/projects/2016-02/post";
@@ -20,12 +22,14 @@ import Project5 from "./views/projects/2020-05/post";
 import Project6 from "./views/projects/2020-06/post";
 import Project7 from "./views/projects/2020-11/post";
 import Project8 from "./views/projects/2021-03/post";
+
 import Quotes from "./views/library/Quotes"
 import Articles from "./views/library/Articles"
 import Books from "./views/library/Books"
 import Speeches from "./views/library/Speeches"
-import Contact from "./views/Contact";
+
 import About from "./views/About";
+import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
 //Components
 import ScrollToTop from "./components/ScrollToTop";
@@ -42,7 +46,7 @@ function Routes() {
 			<ScrollToTop />
 			<Switch>
 				<Route exact path="/" component={Home} />
-
+				<Route exact path="/blog" component={Blog} />
 				<Route exact path="/podcasts" component={Podcasts} />
 
 				<Route exact path="/projects" component={Projects} />
