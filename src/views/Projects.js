@@ -3,15 +3,17 @@ import styled from "styled-components";
 import BlogCard from "../components/BlogCard";
 
 const Styles = styled.div`
-	.Projects {
-		display: flex;
-		align-items: center;
+	.Projects > div {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 375px));
+		grid-gap: 3em;
+
 		justify-content: center;
 	}
 `;
 
 export default function Projects() {
-	const posts = ["2020-12", "2020-11", "2018-11", "2018-07", "2017-02", "2016-02", "2015-02"];
+	const posts = ["2021-03", "2020-11", "2018-11", "2018-07", "2017-02", "2016-02", "2015-02"];
 	const [cards, setCards] = useState([]);
 
 	async function fetchProjects() {
@@ -47,15 +49,16 @@ export default function Projects() {
 		setCards(cards);
 	}
 
+	/* eslint-disable */
 	useEffect(() => {
 		fetchProjects();
 	}, []);
+	/* eslint-enable */
 
 	return (
 		<Styles>
 			<div className="Projects">
 				<title>Projects</title>
-
 				{cards.length ? <div>{cards}</div> : <p>Loading...</p>}
 			</div>
 		</Styles>

@@ -59,7 +59,6 @@ export default function Contact() {
 						<FontAwesomeIcon icon={["fab", "instagram"]} size="6x" />
 					</a>
 				</div>
-				<h2>DMs Open!</h2>
 			</div>
 		</Styles>
 	);

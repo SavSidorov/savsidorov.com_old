@@ -18,7 +18,14 @@ const BlogStyle = styled.div`
 	.post {
 		display: flex;
 		flex-flow: column;
+		align-items: center;	
+	}
+
+	.tweets > div {
+		display: flex;
+		flex-flow: column;
 		align-items: center;
+		justify-content: center;
 	}
 
 	p {

@@ -4,9 +4,8 @@ import styled from "styled-components";
 
 const Styles = styled.div`
 	.BlogCard {
-		width: 50vw;
-		max-height: 500px;
-		max-width: 500px;
+		width: 375px;
+		height: 375px;
 
 		font-size: 20px;
 		padding: 15px;
@@ -33,10 +32,10 @@ const Styles = styled.div`
 	}
 
 	.BlogCard > a > img {
-		width: 40vw;
-		max-width: 375px;
-		height: auto;
-		margin-bottom: 1.5vw;
+		min-height: 50px
+		height: 25vw;
+		max-height: 250px;
+		width: auto;
 	}
 
 	.BlogCard > a > div {
@@ -44,6 +43,7 @@ const Styles = styled.div`
 		flex-flow: column;
 		height: 100%;
 		align-items: center;
+		margin-top: 20px;
 	}
 
 	}
