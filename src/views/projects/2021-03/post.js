@@ -3,7 +3,7 @@ import { TwitterTweetEmbed } from 'react-twitter-embed';
 import BlogStyle from "../../../components/BlogStyle";
 import metadata from "./metadata.json";
 
-export default function Project8() {
+export default function Project9() {
 	return (
 		<BlogStyle>
 			<h2>{metadata.title}</h2>

@@ -12,7 +12,7 @@ export default function Project6() {
 			<h3 className="metadata">{metadata.date}</h3>
 			<div className="post">
 				<div>
-					<p>No demo available for this yet - just mockups and key ideas.</p>
+					<p>No demo available for this - just mockups and key ideas.</p>
 				</div>
 
 				<div>

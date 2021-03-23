@@ -44,7 +44,7 @@ export default function Project3() {
 					</Link>
 				</div>
 				<p>
-					Early into developing this. The idea is to let users create lists of people they recommend or don’t recommend
+					In the concept / mockup stage. The idea is to let users create lists of people they recommend or don’t recommend
 					in a given field. We all hold in our heads people who we think are credible and have good track records and
 					those that do not. This would be a way for people to recommend experts in a given domain.
 				</p>				

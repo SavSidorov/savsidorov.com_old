@@ -21,7 +21,8 @@ import Project4 from "./views/projects/2018-12/post";
 import Project5 from "./views/projects/2020-05/post";
 import Project6 from "./views/projects/2020-06/post";
 import Project7 from "./views/projects/2020-11/post";
-import Project8 from "./views/projects/2021-03/post";
+import Project8 from "./views/projects/2020-12/post";
+import Project9 from "./views/projects/2021-03/post";
 
 import Quotes from "./views/library/Quotes"
 import Articles from "./views/library/Articles"
@@ -59,7 +60,8 @@ function Routes() {
 				<Route exact path="/projects/atomicevents" component={Project5} />
 				<Route exact path="/projects/peoplelist" component={Project6} />
 				<Route exact path="/projects/interhackt" component={Project7} />
-				<Route exact path="/projects/twitter" component={Project8} />
+				<Route exact path="/projects/musicvideos" component={Project8} />
+				<Route exact path="/projects/twitter" component={Project9} />
 
 				<Route exact path="/library/quotes" component={Quotes} />
 				<Route exact path="/library/articles" component={Articles} />
