@@ -37,7 +37,7 @@ const Styles = styled.div`
 export const Footer = () => (
 	<Styles>
 		<div className="Footer">
-			<p className="copyright">Copyright © 2020 Sav Sidorov</p>
+			<p className="copyright">Copyright © 2021 Sav Sidorov</p>
 			<a href="https://twitter.com/savsidorov" className="social">
 				<FontAwesomeIcon icon={["fab", "twitter"]} />
 			</a>
