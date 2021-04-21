@@ -25,9 +25,9 @@ import Project8 from "./views/projects/2020-12/post";
 import Project9 from "./views/projects/2021-03/post";
 
 import Quotes from "./views/library/Quotes"
-import Articles from "./views/library/Articles"
-import Books from "./views/library/Books"
+import Writings from "./views/library/Writings"
 import Speeches from "./views/library/Speeches"
+import People from "./views/library/People"
 
 import About from "./views/About";
 import Contact from "./views/Contact";
@@ -48,7 +48,7 @@ function Routes() {
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route exact path="/blog" component={Blog} />
-				<Route exact path="/podcasts" component={Podcasts} />
+				<Route exact path="/podcast" component={Podcasts} />
 
 				<Route exact path="/projects" component={Projects} />
 				<Route exact path="/projects/elevation" component={ATA} />
@@ -64,9 +64,9 @@ function Routes() {
 				<Route exact path="/projects/twitter" component={Project9} />
 
 				<Route exact path="/library/quotes" component={Quotes} />
-				<Route exact path="/library/articles" component={Articles} />
-				<Route exact path="/library/books" component={Books} />
+				<Route exact path="/library/writings" component={Writings} />
 				<Route exact path="/library/speeches" component={Speeches} />
+				<Route exact path="/library/people" component={People} />
 
 				<Route exact path="/contact" component={Contact} />
 				<Route exact path="/about" component={About} />

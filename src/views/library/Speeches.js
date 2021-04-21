@@ -10,12 +10,18 @@ const Styles = styled.div`
 
 	justify-content: center;	
 }
+
+p{
+	font-size: 20px;
+}
 `;
 
 export default function Speeches() {
 	return (
 		<Styles>
       <Navigation/>
+			<p>Speeches (& lectures) that I frequently refer back to...</p>
+			<br/>
 			<div className="speeches">
 				<iframe title="Nassim" width="400" height="225" src="https://www.youtube.com/embed/Fzmr3urk28I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<iframe title="Peter" width="400" height="225" src="https://www.youtube.com/embed/id4ywg5oemc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

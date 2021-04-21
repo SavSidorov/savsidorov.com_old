@@ -32,6 +32,8 @@ export default function Quotes() {
 		<Styles>
       <Navigation/>
 			<div className="quotes">
+        <div><p>A list of quotes that I've taken to heart.</p></div>
+        <br/>
 				<div className="quote">
           <div />
           <p>

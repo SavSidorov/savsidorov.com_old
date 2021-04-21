@@ -9,6 +9,7 @@ const Styles = styled.div`
 }
 
 h3 > a {
+  font-size: 25px;
   color: gray;
 
   &:hover {
@@ -34,9 +35,9 @@ export default function Navigation() {
 		<Styles>
       <div className="library-nav">
         <h3><NavLink to="/library/quotes" activeClassName="selected" >Quotes</NavLink>/</h3>
-        <h3><NavLink to="/library/articles" activeClassName="selected" >Articles</NavLink>/</h3>
-        <h3><NavLink to="/library/books" activeClassName="selected">Books</NavLink>/</h3>
-        <h3><NavLink to="/library/speeches" activeClassName="selected">Speeches</NavLink></h3>
+        <h3><NavLink to="/library/writings" activeClassName="selected" >Writings</NavLink>/</h3>
+        <h3><NavLink to="/library/speeches" activeClassName="selected">Speeches</NavLink>/</h3>
+        <h3><NavLink to="/library/people" activeClassName="selected">People</NavLink></h3>
       </div>
 		</Styles>
 	);

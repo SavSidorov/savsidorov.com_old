@@ -13,11 +13,14 @@ a{
 }
 `;
 
-export default function Articles() {
+export default function Writings() {
 	return (
 		<Styles>
       <Navigation/>
-			<div className="articles">
+			<p>These are the books and shorter writings that I've found interesting and insightful — the ones that have stuck with me and shaped my worldview.</p>
+			<br/>
+			<h4>Books</h4>
+			<div>
 				<p><b><a href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One</a></b> — Peter Thiel</p>
 				<p><b><a href="https://www.goodreads.com/book/show/189989.Finite_and_Infinite_Games">Finite and Infinite Games</a></b> — James Carse</p>
 				<p><b><a href="https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass">Alice’s Adventures in Wonderland</a></b> — Lewis Carroll</p>
@@ -38,6 +41,25 @@ export default function Articles() {
 				<p><b><a href="https://www.goodreads.com/book/show/25541028-elon-musk">Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a></b> — Ashlee Vance</p>
 				<p><b><a href="https://www.academia.edu/38433249/Principia_Politica">Principia Politica</a></b> — Nassim Nicholas Taleb</p>
 				<p><b><a href="https://www.goodreads.com/book/show/31170723-behave">Behave</a></b> — Robert Sapolsky</p>
+			</div>
+			<br />
+			<h4>Articles</h4>
+			<div>
+				<p><b><a href="https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html">The Cook and the Chef</a></b> — Tim Urban</p>
+				<p><b><a href="https://waitbutwhy.com/2019/08/story-of-us.html">The Story of Us</a></b> — Tim Urban</p>
+				<p><b><a href="https://www.edge.org/response-detail/23879">Excellence</a></b> — Eric Weinstein</p>
+				<p><b><a href="https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/">Conflict vs Mistake</a></b> — Scott Alexander</p>
+				<p><b><a href="https://slatestarcodex.com/2018/10/30/sort-by-controversial/">Sort By Controversial</a></b> — Scott Alexander</p>
+				<p><b><a href="https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/">Universal Love, Said The Cactus Person</a></b> — Scott Alexander</p>
+				<p><b><a href="https://www.lorenzospaggiari.com/wp-content/uploads/2019/04/Watson-1993.pdf">Succeeding in Science: Some Rules of Thumb</a></b> —  James D. Watson</p>
+				<p><b><a href="https://www.maa.org/external_archive/devlin/LockhartsLament.pdf">A Mathematician’s Lament</a></b> — Paul Lockhart</p>
+				<p><b><a href="http://worrydream.com/refs/Hofstadter%20-%20Analogy%20as%20the%20Core%20of%20Cognition.pdf">Analogy as the Core of Cognition</a></b> — Douglas Hofstadter</p>
+				<p><b><a href="https://numinous.productions/ttft/">How can we develop transformative tools for thought?</a></b> — Andy Matuschak and Michael Nielsen</p>
+				<p><b><a href="http://www.paulgraham.com/conformism.html">The Four Quadrants of Conformism</a></b> — Paul Graham</p>
+				<p><b><a href="http://www.paulgraham.com/love.html">How to Do What You Love</a></b> — Paul Graham</p>
+				<p><b><a href="https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian">The Education of a Libertarian</a></b> — Peter Thiel</p>
+				<p><b><a href="https://graymirror.substack.com/p/2020-the-year-of-everything-fake ">2020, the year of everything fake</a></b> — Curtis Yarvin</p>
+				<p><b>The Clear Pill: <a href="https://americanmind.org/salvo/the-clear-pill-part-1-of-5-the-four-stroke-regime/">Part I</a> & <a href="https://americanmind.org/salvo/the-clear-pill-part-2-of-5-a-theory-of-pervasive-error/">Part II</a></b> — Curtis Yarvin</p>						
 			</div>
 		</Styles>
 	);
