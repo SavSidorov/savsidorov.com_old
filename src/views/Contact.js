@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import MetaTags from "react-meta-tags";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Styles = styled.div`
@@ -41,9 +40,6 @@ const Styles = styled.div`
 export default function Contact() {
 	return (
 		<Styles>
-			<MetaTags>
-				<title>Contact</title>
-			</MetaTags>
 			<div className="contact">
 				<div className="icons">
 					<a href="https://twitter.com/savsidorov">

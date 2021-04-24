@@ -180,7 +180,10 @@ const names = ["Alexey Guzey",
 								"Zack Snyder",
 								"Zev Weinstein",
 								"Tim Soret",
-								"Phil Fish"
+								"Phil Fish", 
+								"Yelawolf", 
+								"Killer Mike",
+								"Tupac Shakur"
 							]
 
 export default function People() {
@@ -189,7 +192,7 @@ export default function People() {
 	return (
 		<Styles>
       <Navigation/>
-			<p>This is a list of (public) individuals who interest me — those whom I've learned from and been inspired by.</p>
+			<p>A list of (public) individuals who interest me — those whom I've learned from and been inspired by.</p>
 			<br/>
 			<div className="people">
 				{people}

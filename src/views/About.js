@@ -1,6 +1,7 @@
 import React from "react";
 import BlogStyle from "../components/BlogStyle";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import resume from "../assets/ssidorov_cv.pdf";
 import Sav from "../assets/sav.png";
 
@@ -19,7 +20,7 @@ export default function About() {
 				</p>
 				<div>
 					<p>
-						<a href={resume}>My resume</a>.
+						<a href={resume}>My resume</a> <FontAwesomeIcon icon={["far", "file-pdf"]} />.
 					</p>
 				</div>
 			</div>
