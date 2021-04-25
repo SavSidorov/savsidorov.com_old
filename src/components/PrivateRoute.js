@@ -4,10 +4,10 @@ import { Redirect } from 'react-router-dom'
 class PrivateRoute extends React.Component {
   render() {
     const Component = this.props.component;
-    const isAuthenticated = localStorage.getItem('token');
+    const isAuthenticated = localStorage.getItem('password');
     console.log(isAuthenticated)
   
-    return isAuthenticated ? (
+    return isAuthenticated === 'localism' ? (
         <Component />
     ) : (
         <Redirect to={{ pathname: '/login' }} />

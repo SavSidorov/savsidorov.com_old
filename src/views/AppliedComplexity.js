@@ -39,10 +39,20 @@ const Styles = styled.div`
 `;
 
 export default function AppliedComplexity() {
+	const submit = (e) => {
+    e.preventDefault()
+    console.log("Clicked submit!")
+		localStorage.clear();
+		}
+  
+
 	return (
 		<Styles>
 			<div className="contact">
-				Applied Complexity
+				Applied Complexity - coming soon
+				<form onSubmit={submit} className="form">
+					<input type="submit" className="click"/>
+				</form>
 			</div>
 		</Styles>
 	);

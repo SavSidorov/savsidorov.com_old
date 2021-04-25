@@ -21,13 +21,6 @@ code {
 }
 
 @font-face {
-	font-family: 'Alice';
-	src: url('./fonts/Alice-Regular.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'source-sans-pro';
 	src: url('./fonts/source-sans-pro.extralight.ttf') format('truetype');
 	font-weight: 300;

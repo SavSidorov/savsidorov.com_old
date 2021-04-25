@@ -40,7 +40,6 @@ import { NavBar } from "./components/NavBar";
 import { Layout } from "./components/Layout";
 import { Footer } from "./components/Footer";
 
-
 library.add(fab, fas, far);
 
 function Routes() {
@@ -70,7 +69,7 @@ function Routes() {
 				<Route exact path="/library/speeches" component={Speeches} />
 				<Route exact path="/library/people" component={People} />
 
-				<Route exact path="/contact" component={Contact} />
+				<Route exact path="/socials" component={Contact} />
 				<Route exact path="/about" component={About} />
 
 				<PrivateRoute exact path="/acs101" component={AppliedComplexity}/>

@@ -37,6 +37,8 @@ const Styles = styled.div`
 	}
 `;
 
+//TODO: Remove this view, put socials in navbar instead
+
 export default function Contact() {
 	return (
 		<Styles>
