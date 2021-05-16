@@ -32,7 +32,9 @@ export default function Writings() {
 				<p><b><a href="https://www.goodreads.com/book/show/35167685-surely-you-re-joking-mr-feynman">Surely You’re Joking, Mr. Feynman!</a></b> — Richard P. Feynman</p>
 				<p><b><a href="https://www.goodreads.com/series/164555-incerto">The Incerto</a></b> — Nassim Nicholas Taleb</p>
 				<p><b><a href="https://www.goodreads.com/book/show/149800.Visual_Complex_Analysis">Visual Complex Analysis</a></b> — Tristan Needham</p>
+				<p><b><a href="https://www.goodreads.com/book/show/106728.The_Timeless_Way_of_Building">The Timeless Way of Building</a></b> — Christopher Alexander</p>
 				<p><b><a href="https://www.goodreads.com/book/show/79766.A_Pattern_Language">A Pattern Language</a></b> — Christopher Alexander</p>
+				<p><b><a href="https://www.goodreads.com/book/show/295816.Religions_Values_and_Peak_Experiences">Religions, Values, and Peak-Experiences</a></b> — Abraham H. Maslow</p>
 				<p><b><a href="https://www.goodreads.com/book/show/10884.Einstein">Einstein: His Life and Universe</a></b> — Walter Isaacson</p>
 				<p><b><a href="https://www.goodreads.com/book/show/2122.The_Fountainhead">The Fountainhead</a></b> — Ayn Rand</p>
 				<p><b><a href="https://www.goodreads.com/book/show/472331.Watchmen">Watchmen</a></b> — Alan Moore & Dave Gibbons</p>
@@ -57,9 +59,18 @@ export default function Writings() {
 				<p><b><a href="https://numinous.productions/ttft/">How can we develop transformative tools for thought?</a></b> — Andy Matuschak and Michael Nielsen</p>
 				<p><b><a href="http://www.paulgraham.com/conformism.html">The Four Quadrants of Conformism</a></b> — Paul Graham</p>
 				<p><b><a href="http://www.paulgraham.com/love.html">How to Do What You Love</a></b> — Paul Graham</p>
+				<p><b><a href="https://www.piratewires.com/p/jump-23d06adb4cb7">JUMP</a></b> — Mike Solana</p>
 				<p><b><a href="https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian">The Education of a Libertarian</a></b> — Peter Thiel</p>
-				<p><b><a href="https://graymirror.substack.com/p/2020-the-year-of-everything-fake ">2020, the year of everything fake</a></b> — Curtis Yarvin</p>
-				<p><b>The Clear Pill: <a href="https://americanmind.org/salvo/the-clear-pill-part-1-of-5-the-four-stroke-regime/">Part I</a> & <a href="https://americanmind.org/salvo/the-clear-pill-part-2-of-5-a-theory-of-pervasive-error/">Part II</a></b> — Curtis Yarvin</p>						
+				<p><b><a href="https://graymirror.substack.com/p/2020-the-year-of-everything-fake">2020, the year of everything fake</a></b> — Curtis Yarvin</p>
+				<p><b>The Clear Pill: <a href="https://americanmind.org/salvo/the-clear-pill-part-1-of-5-the-four-stroke-regime/">Part I</a> & <a href="https://americanmind.org/salvo/the-clear-pill-part-2-of-5-a-theory-of-pervasive-error/">Part II</a></b> — Curtis Yarvin</p>		
+				<p><b><a href="https://graymirror.substack.com/p/a-brief-explanation-of-the-cathedral">A brief explanation of the cathedral</a></b> — Curtis Yarvin</p>				
+			</div>
+			<br />
+			<h4>Short Stories</h4>
+			<div>
+				<p><b><a href="http://sdavidmiller.com/octo/files/no_google2/GoodOldNeon.pdf">Good Old Neon</a></b> — David Foster Wallace</p>
+				<p><b><a href="https://www.ndsu.edu/pubweb/~cinichol/CreativeWriting/323/OBrienWarStory.pdf">How to Tell a True War Story</a></b> — Tim O'Brien</p>
+				<p><b><a href="https://savsidorov.substack.com/p/the-youth-a-translation">Молодняк / The Youth</a></b> — Aleksandr Solzhenitsyn</p>			
 			</div>
 		</Styles>
 	);

@@ -35,9 +35,15 @@ const Styles = styled.div`
 			color: var(--ss-primary);
 		}
 	}
-`;
 
-//TODO: Remove this view, put socials in navbar instead
+	.chat {
+		text-decoration: none;
+		color: var(--ss-primary);
+		margin: 20px;
+		font-size: 20px;
+		font-weight: 500;
+	}
+`;
 
 export default function Contact() {
 	return (
@@ -45,18 +51,22 @@ export default function Contact() {
 			<div className="contact">
 				<div className="icons">
 					<a href="https://twitter.com/savsidorov">
-						<FontAwesomeIcon icon={["fab", "twitter"]} size="6x" />
+						<FontAwesomeIcon icon={["fab", "twitter"]} size="5x" />
 					</a>
 					<a href="https://www.linkedin.com/in/savsidorov/">
-						<FontAwesomeIcon icon={["fab", "linkedin"]} size="6x" />
+						<FontAwesomeIcon icon={["fab", "linkedin"]} size="5x" />
 					</a>
 					<a href="https://github.com/SavSidorov">
-						<FontAwesomeIcon icon={["fab", "github"]} size="6x" />
+						<FontAwesomeIcon icon={["fab", "github"]} size="5x" />
 					</a>
 					<a href="https://www.instagram.com/savsidorov/">
-						<FontAwesomeIcon icon={["fab", "instagram"]} size="6x" />
+						<FontAwesomeIcon icon={["fab", "instagram"]} size="5x" />
+					</a>
+					<a href="mailto:sav01027@gmail.com">
+						<FontAwesomeIcon icon={["far", "envelope"]} size="5x" />
 					</a>
 				</div>
+				<a className="chat" href="https://calendly.com/sav01027/15min">Schedule Quick Chat</a>
 			</div>
 		</Styles>
 	);

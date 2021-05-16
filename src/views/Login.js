@@ -26,6 +26,7 @@ const Styles = styled.div`
 		background-color: var(--ss-primary);
 		border-color: var(--ss-primary);
 		font-weight: 500;
+		width: 50px;
 
 		border-style: solid;
 		border-radius: 10px;
@@ -69,7 +70,7 @@ export default function Login() {
 										name="input" 
 										onChange={e => setInput({ ...input, input: e.target.value })} 
 						/>
-						<input type="submit" value="SUBMIT" className="click"/>
+						<input type="submit" value="⏎" className="click"/>
 					</form>
 				</div>
 			</Styles>

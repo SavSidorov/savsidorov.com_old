@@ -11,7 +11,7 @@ const Styles = styled.div`
 	}
 
 	.Footer > * {
-		margin: 0 20px;
+		margin: 0 10px;
 
 		align-self: center;
 
@@ -49,6 +49,9 @@ export const Footer = () => (
 			</a>
 			<a href="https://www.instagram.com/savsidorov/" className="social">
 				<FontAwesomeIcon icon={["fab", "instagram"]} />
+			</a>
+			<a href="mailto:sav01027@gmail.com" className="social">
+				<FontAwesomeIcon icon={["far", "envelope"]}  />
 			</a>
 		</div>
 	</Styles>

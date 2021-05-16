@@ -97,6 +97,16 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
+            “Competition is for losers.”
+          </p>
+        </div>
+        <p>
+          — Peter Thiel
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
             “Don’t settle for nice, for pleasant, for familiar. Keep looking until you find something that really moves you, that resonates with your core. And I mean this for people, for interests, for hobbies, for your possessions, clothes, music, books, art. Everything. Curate every aspect of your life, as much as you can. It’s in the things that deeply inspire us that we find ourselves. Surround yourself with truth, and you’ll have built yourself a heaven.”
           </p>
         </div>

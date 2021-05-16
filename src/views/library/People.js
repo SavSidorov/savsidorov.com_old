@@ -183,7 +183,9 @@ const names = ["Alexey Guzey",
 								"Phil Fish", 
 								"Yelawolf", 
 								"Killer Mike",
-								"Tupac Shakur"
+								"Tupac Shakur", 
+								"Gordon Ramsay",
+								"Aleksandr Solzhenitsyn"
 							]
 
 export default function People() {
