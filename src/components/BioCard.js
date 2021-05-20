@@ -79,8 +79,8 @@ a {
 		height: auto;
 		margin-bottom: 15px;
 		margin-top 25px;
-		max-height: 400px;
-		max-width: 400px;
+		max-height: 300px;
+		max-width: 300px;
 	}
 }
 `;

@@ -39,7 +39,6 @@ export default function Writings() {
 				<p><b><a href="https://www.goodreads.com/book/show/2122.The_Fountainhead">The Fountainhead</a></b> — Ayn Rand</p>
 				<p><b><a href="https://www.goodreads.com/book/show/472331.Watchmen">Watchmen</a></b> — Alan Moore & Dave Gibbons</p>
 				<p><b><a href="https://www.goodreads.com/book/show/36336078-call-me-by-your-name">Call Me By Your Name</a></b> — André Aciman</p>
-				<p><b><a href="https://www.ndsu.edu/pubweb/~cinichol/CreativeWriting/323/OBrienWarStory.pdf">How to Tell a True War Story</a></b> — Tim O’Brien</p>
 				<p><b><a href="https://www.goodreads.com/book/show/25541028-elon-musk">Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a></b> — Ashlee Vance</p>
 				<p><b><a href="https://www.academia.edu/38433249/Principia_Politica">Principia Politica</a></b> — Nassim Nicholas Taleb</p>
 				<p><b><a href="https://www.goodreads.com/book/show/31170723-behave">Behave</a></b> — Robert Sapolsky</p>
@@ -61,7 +60,6 @@ export default function Writings() {
 				<p><b><a href="http://www.paulgraham.com/love.html">How to Do What You Love</a></b> — Paul Graham</p>
 				<p><b><a href="https://www.piratewires.com/p/jump-23d06adb4cb7">JUMP</a></b> — Mike Solana</p>
 				<p><b><a href="https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian">The Education of a Libertarian</a></b> — Peter Thiel</p>
-				<p><b><a href="https://graymirror.substack.com/p/2020-the-year-of-everything-fake">2020, the year of everything fake</a></b> — Curtis Yarvin</p>
 				<p><b>The Clear Pill: <a href="https://americanmind.org/salvo/the-clear-pill-part-1-of-5-the-four-stroke-regime/">Part I</a> & <a href="https://americanmind.org/salvo/the-clear-pill-part-2-of-5-a-theory-of-pervasive-error/">Part II</a></b> — Curtis Yarvin</p>		
 				<p><b><a href="https://graymirror.substack.com/p/a-brief-explanation-of-the-cathedral">A brief explanation of the cathedral</a></b> — Curtis Yarvin</p>				
 			</div>

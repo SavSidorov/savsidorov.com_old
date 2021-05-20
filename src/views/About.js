@@ -13,7 +13,7 @@ export default function About() {
 												<a href="https://www.thebluealliance.com/team/5897">Team 5897 – APEX Robotics</a>, I helped the team become
 												one of the best performing teams in the Western Canada scene, attending the World Championship in its’ first
 												year of existence. Currently, I am focusing on education while pursuing{" "}
-												<Link to="/projects">personal projects on the side</Link>. Interested in physics, cognition and sensemaking.
+												<Link to="/projects">personal projects on the side</Link>. Interested in physics, mathematics, cognition and sensemaking.
 											</p>
 
 	const socials = <p className="socials">
@@ -36,7 +36,7 @@ export default function About() {
 	
 
 	return(
-		<BioCard image={Sav} title={name} p1={description} p2={<p className="info"><a href={resume}>My resume</a> <FontAwesomeIcon icon={["far", "file-pdf"]} />.</p>} p3={socials}/>
+		<BioCard image={Sav} title={name} p1={description} p2={<p className="info"><a href={resume}>My resume</a> <FontAwesomeIcon icon={["far", "file-pdf"]} /></p>} p3={socials}/>
 	)
 }
 

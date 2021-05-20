@@ -107,16 +107,6 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
-            “Don’t settle for nice, for pleasant, for familiar. Keep looking until you find something that really moves you, that resonates with your core. And I mean this for people, for interests, for hobbies, for your possessions, clothes, music, books, art. Everything. Curate every aspect of your life, as much as you can. It’s in the things that deeply inspire us that we find ourselves. Surround yourself with truth, and you’ll have built yourself a heaven.”
-          </p>
-        </div>
-        <p>
-          — Unknown
-        </p>
-
-        <div className="quote">
-          <div />
-          <p>
             “Any developer who bitches about, 'Oh, our publisher cut off our money,' or, 'The publisher made us ship the game early,' doesn't get it. That's the interesting problem you have to solve as a developer. If you don't, well, you'll be perpetually screwed.”
           </p>
         </div>
@@ -267,7 +257,27 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
+            “I don’t know how to hit a ball any different than I hit it. A director has one skill — your point of view. That’s all you have. If you’re trying to imitate another way of making a movie, then you’re on a slippery slope.”
+          </p>
+        </div>
+        <p>
+          — Zack Snyder
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
             “The Official Idealism of every age is usually the cover story of its thefts.”
+          </p>
+        </div>
+        <p>
+          — Eric Weinstein
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
+            “The invisible world is first detected by the visible world’s failure to close.”
           </p>
         </div>
         <p>

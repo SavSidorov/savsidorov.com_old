@@ -79,7 +79,6 @@ const names = ["Alexey Guzey",
 								"Elon Musk",
 								"Edward Witten",
 								"Erwin Schrödinger",
-								"Eliezer Yudkowsky",
 								"Frank Ocean",
 								"Francois Chollet",
 								"Franklin D. Roosevelt",
@@ -185,7 +184,11 @@ const names = ["Alexey Guzey",
 								"Killer Mike",
 								"Tupac Shakur", 
 								"Gordon Ramsay",
-								"Aleksandr Solzhenitsyn"
+								"Aleksandr Solzhenitsyn",
+								"Gerd Gigerenzer",
+								"Paolo Sorrentino",
+								"Ralph Waldo Emerson",
+								"Andrés Gómez Emilsson"
 							]
 
 export default function People() {
