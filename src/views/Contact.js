@@ -51,19 +51,22 @@ export default function Contact() {
 			<div className="contact">
 				<div className="icons">
 					<a href="https://twitter.com/savsidorov">
-						<FontAwesomeIcon icon={["fab", "twitter"]} size="5x" />
+						<FontAwesomeIcon icon={["fab", "twitter"]} size="4x" />
 					</a>
 					<a href="https://www.linkedin.com/in/savsidorov/">
-						<FontAwesomeIcon icon={["fab", "linkedin"]} size="5x" />
+						<FontAwesomeIcon icon={["fab", "linkedin"]} size="4x" />
 					</a>
 					<a href="https://github.com/SavSidorov">
-						<FontAwesomeIcon icon={["fab", "github"]} size="5x" />
+						<FontAwesomeIcon icon={["fab", "github"]} size="4x" />
 					</a>
 					<a href="https://www.instagram.com/savsidorov/">
-						<FontAwesomeIcon icon={["fab", "instagram"]} size="5x" />
+						<FontAwesomeIcon icon={["fab", "instagram"]} size="4x" />
+					</a>
+					<a href="https://www.goodreads.com/user/show/74501550-sav-sidorov">
+						<FontAwesomeIcon icon={["fab", "goodreads"]} size="4x" />
 					</a>
 					<a href="mailto:sav01027@gmail.com">
-						<FontAwesomeIcon icon={["far", "envelope"]} size="5x" />
+						<FontAwesomeIcon icon={["far", "envelope"]} size="4x" />
 					</a>
 				</div>
 				<a className="chat" href="https://calendly.com/sav01027/15min">Schedule Quick Chat</a>

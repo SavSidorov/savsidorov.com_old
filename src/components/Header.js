@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 
 const Styles = styled.div`
 	.header {
@@ -13,8 +13,8 @@ const Styles = styled.div`
 	}
 
 	.logo {
-		height: 20vw;
-		max-height: 150px;
+		height: 30vw;
+		max-height: 200px;
 		width: auto;
 	}
 `;

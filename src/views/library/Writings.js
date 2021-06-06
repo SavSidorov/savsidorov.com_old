@@ -18,7 +18,9 @@ export default function Writings() {
 		<Styles>
       <Navigation/>
 			<p>These are the books and shorter writings that I've found interesting and insightful — the ones that have stuck with me and shaped my worldview.</p>
+		
 			<br/>
+		
 			<h4>Books</h4>
 			<div>
 				<p><b><a href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One</a></b> — Peter Thiel</p>
@@ -43,11 +45,14 @@ export default function Writings() {
 				<p><b><a href="https://www.academia.edu/38433249/Principia_Politica">Principia Politica</a></b> — Nassim Nicholas Taleb</p>
 				<p><b><a href="https://www.goodreads.com/book/show/31170723-behave">Behave</a></b> — Robert Sapolsky</p>
 			</div>
+
 			<br />
+			
 			<h4>Articles</h4>
 			<div>
 				<p><b><a href="https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html">The Cook and the Chef</a></b> — Tim Urban</p>
 				<p><b><a href="https://waitbutwhy.com/2019/08/story-of-us.html">The Story of Us</a></b> — Tim Urban</p>
+				<p><b><a href="https://emersoncentral.com/texts/representative-men/uses-of-great-men/">Uses of Great Men</a></b> — Ralph Waldo Emerson</p>
 				<p><b><a href="https://www.edge.org/response-detail/23879">Excellence</a></b> — Eric Weinstein</p>
 				<p><b><a href="https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/">Conflict vs Mistake</a></b> — Scott Alexander</p>
 				<p><b><a href="https://slatestarcodex.com/2018/10/30/sort-by-controversial/">Sort By Controversial</a></b> — Scott Alexander</p>
@@ -60,10 +65,13 @@ export default function Writings() {
 				<p><b><a href="http://www.paulgraham.com/love.html">How to Do What You Love</a></b> — Paul Graham</p>
 				<p><b><a href="https://www.piratewires.com/p/jump-23d06adb4cb7">JUMP</a></b> — Mike Solana</p>
 				<p><b><a href="https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian">The Education of a Libertarian</a></b> — Peter Thiel</p>
-				<p><b>The Clear Pill: <a href="https://americanmind.org/salvo/the-clear-pill-part-1-of-5-the-four-stroke-regime/">Part I</a> & <a href="https://americanmind.org/salvo/the-clear-pill-part-2-of-5-a-theory-of-pervasive-error/">Part II</a></b> — Curtis Yarvin</p>		
-				<p><b><a href="https://graymirror.substack.com/p/a-brief-explanation-of-the-cathedral">A brief explanation of the cathedral</a></b> — Curtis Yarvin</p>				
+				<p><b><a href="https://urbit.org/blog/a-founders-farewell/">A Founder's Farewell</a></b> — Curtis Yarvin</p>				
+				<p><b><a href="https://graymirror.substack.com/p/a-brief-explanation-of-the-cathedral">A brief explanation of the cathedral</a></b> — Curtis Yarvin</p>	
+				<p><b><a href="https://graymirror.substack.com/p/a-speech-code-for-dissidents">A speech code for dissidents</a></b> — Curtis Yarvin</p>						
 			</div>
+			
 			<br />
+			
 			<h4>Short Stories</h4>
 			<div>
 				<p><b><a href="http://sdavidmiller.com/octo/files/no_google2/GoodOldNeon.pdf">Good Old Neon</a></b> — David Foster Wallace</p>

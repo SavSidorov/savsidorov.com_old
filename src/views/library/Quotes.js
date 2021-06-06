@@ -117,11 +117,34 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
+            “What I wanted, I did not know; what I knew, I did not want.”
+          </p>
+        </div>
+        <p>
+          — Curtis Yarvin, <i>A Founder's Farewell</i>
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
             “He not busy being born is busy dying!”
           </p>
         </div>
         <p>
           — Bob Dylan
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
+            “Now evolution — where is it all going? Is it coming to an end or is it just beginning?
+            <br/>
+            <br/>
+            There was one fellow who know'd Malibu quite well at a certain time in history and I doubt if very few people are able to find these types of conditions again due to crowds, and controls, and much bureaucracy. But there are other areas which are magnificent and are treasures of this world. And for somebody with adventure and excitement in their lives, and they have a lot of excitement and adventure, they can find this way of living.”
+          </p>
+        </div>
+        <p>
+          — From Anderson .Paak's <i>Malibu</i>
         </p>
 
         <div className="quote">
