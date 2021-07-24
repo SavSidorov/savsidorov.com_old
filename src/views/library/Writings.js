@@ -17,7 +17,7 @@ export default function Writings() {
 	return (
 		<Styles>
       <Navigation/>
-			<p>These are the books and shorter writings that I've found interesting and insightful — the ones that have stuck with me and shaped my worldview.</p>
+			<p>These are the books and shorter writings that I've found interesting and insightful — the ones that have stuck with me and shaped my worldview. See more books on my <b><a href="https://www.goodreads.com/user/show/74501550-sav-sidorov">Goodreads</a></b>.</p>
 		
 			<br/>
 		

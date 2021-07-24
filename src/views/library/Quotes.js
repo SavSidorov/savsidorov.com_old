@@ -137,6 +137,26 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
+            “Everything in the world is exactly the same.”
+          </p>
+        </div>
+        <p>
+          — Kanye West
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
+            “Making art is a form of madness – we slip deep within our own singular vision and become lost to it. There is no musician on Earth that is as committed to their own derangement as Kanye, and in this respect, at this point in time, he is our greatest artist.”
+          </p>
+        </div>
+        <p>
+          — Nick Cave on Kanye West
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
             “Now evolution — where is it all going? Is it coming to an end or is it just beginning?
             <br/>
             <br/>

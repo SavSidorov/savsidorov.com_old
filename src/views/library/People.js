@@ -191,7 +191,12 @@ const names = ["Alexey Guzey",
 	"Andrés Gómez Emilsson",
 	"Gwynne Shotwell",
 	"Max Hodak",
-	"Charles Bukowski"
+	"Charles Bukowski",
+	"Stafford Beer",
+	"Elizabeth van Nostrand",
+	"William Bolitho",
+	"James Burnham",
+	"Brian Keating"
 ]
 
 export default function People() {

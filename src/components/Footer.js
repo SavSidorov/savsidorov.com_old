@@ -50,6 +50,9 @@ export const Footer = () => (
 			<a href="https://www.instagram.com/savsidorov/" className="social">
 				<FontAwesomeIcon icon={["fab", "instagram"]} />
 			</a>
+			<a href="https://www.youtube.com/channel/UCIDLl9D1pxV6GF33AJGocTQ" className="social">
+				<FontAwesomeIcon icon={["fab", "youtube"]} />
+			</a>
 			<a href="https://www.goodreads.com/user/show/74501550-sav-sidorov" className="social">
 						<FontAwesomeIcon icon={["fab", "goodreads"]} />
 			</a>

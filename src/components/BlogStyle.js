@@ -21,6 +21,14 @@ const BlogStyle = styled.div`
 		align-items: center;	
 	}
 
+	.modules {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 165px));
+		grid-gap: 3em;
+
+		justify-content: center;
+	}
+
 	.tweets > div {
 		display: flex;
 		flex-flow: column;
