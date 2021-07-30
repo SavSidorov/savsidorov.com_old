@@ -37,11 +37,16 @@ const Styles = styled.div`
 	}
 
 	.chat {
-		text-decoration: none;
-		color: var(--ss-primary);
 		margin: 20px;
 		font-size: 20px;
+		
+		text-decoration: underline;
+		color: var(--ss-primary);
 		font-weight: 500;
+
+		&:hover{
+			text-decoration: none;
+		}
 	}
 `;
 

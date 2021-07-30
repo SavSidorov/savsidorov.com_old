@@ -41,9 +41,13 @@ const BlogStyle = styled.div`
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 		color: var(--ss-primary);
 		font-weight: 500;
+
+		&:hover{
+			text-decoration: none;
+		}
 	}
 
 	.color-box {

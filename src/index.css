@@ -15,7 +15,8 @@ code {
 }
 
 #root {
-	--ss-primary: rgb(120, 81, 169);
+	--ss-primary: gray;
+	--ss-primary-old: rgb(120, 81, 169);
 	--ss-secondary: rgb(0, 213, 98);
 	--ss-legacy: rgb(215, 182, 41);
 }

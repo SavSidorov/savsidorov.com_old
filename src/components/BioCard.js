@@ -56,9 +56,13 @@ p {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: var(--ss-primary);
 	font-weight: 500;
+
+	&:hover{
+		text-decoration: none;
+	}
 }
 
 @media only screen and (max-width: 1000px) {

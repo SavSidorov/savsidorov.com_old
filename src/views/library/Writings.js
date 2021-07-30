@@ -8,8 +8,13 @@ p{
 }
 
 a{
-	text-decoration: none;
-	color: var(--ss-primary)
+	text-decoration: underline;
+	color: var(--ss-primary);
+	font-weight: 500;
+
+	&:hover{
+		text-decoration: none;
+	}
 }
 `;
 

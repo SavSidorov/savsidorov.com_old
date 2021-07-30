@@ -11,6 +11,7 @@ const Styles = styled.div`
 h3 > a {
   font-size: 25px;
   color: gray;
+  text-decoration: none;
 
   &:hover {
     color: var(--ss-primary);
