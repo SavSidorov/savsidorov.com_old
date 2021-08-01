@@ -30,6 +30,12 @@ export default function About() {
 										<a href="https://www.instagram.com/savsidorov/">
 											<FontAwesomeIcon icon={["fab", "instagram"]} />
 										</a>
+										<a href="https://www.youtube.com/channel/UCIDLl9D1pxV6GF33AJGocTQ">
+											<FontAwesomeIcon icon={["fab", "youtube"]} />
+										</a>
+										<a href="https://www.goodreads.com/user/show/74501550-sav-sidorov">
+											<FontAwesomeIcon icon={["fab", "goodreads"]} />
+										</a>
 										<a href="mailto:sav01027@gmail.com">
 											<FontAwesomeIcon icon={["far", "envelope"]} />
 										</a>
@@ -40,4 +46,3 @@ export default function About() {
 		<BioCard image={Sav} title={name} p1={description} p2={<p className="info"><a href={resume}>My resume</a> <FontAwesomeIcon icon={["far", "file-pdf"]} /></p>} p3={socials}/>
 	)
 }
-

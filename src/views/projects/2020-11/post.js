@@ -28,13 +28,13 @@ export default function Project7() {
 					<br/>
 				</div>
 				<iframe 
-					width="400" 
+					width="560" 
 					height="315"
 					title="The Future of Learning"
 					src="https://www.youtube.com/embed/Gtvww68rEcQ" 
-					frameborder="0" 
+					frameBorder="0" 
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-					allowfullscreen>
+					allowFullScreen>
 				</iframe>
 			</div>
 		</BlogStyle>

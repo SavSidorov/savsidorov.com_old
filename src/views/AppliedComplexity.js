@@ -25,7 +25,6 @@ import module19_image from "../assets/ACS101/thumbnails/module19.png"
 import module20_image from "../assets/ACS101/thumbnails/module20.png"
 import module21_image from "../assets/ACS101/thumbnails/module21.png"
 
-
 import module0_pdf from "../assets/ACS101/notes/Module_0_Introduction.pdf"
 import module1_pdf from "../assets/ACS101/notes/Module_1_Reductionism_and_Emergence.pdf"
 import module2_pdf from "../assets/ACS101/notes/Module_2_Introduction_to_Dynamics.pdf"
