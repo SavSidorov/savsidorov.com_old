@@ -70,9 +70,6 @@ export default function Contact() {
 					<a href="https://www.youtube.com/channel/UCIDLl9D1pxV6GF33AJGocTQ">
 						<FontAwesomeIcon icon={["fab", "youtube"]} size="4x" />
 					</a>
-					<a href="https://www.goodreads.com/user/show/74501550-sav-sidorov">
-						<FontAwesomeIcon icon={["fab", "goodreads"]} size="4x" />
-					</a>
 					<a href="mailto:sav01027@gmail.com">
 						<FontAwesomeIcon icon={["far", "envelope"]} size="4x" />
 					</a>

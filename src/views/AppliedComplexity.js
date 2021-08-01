@@ -42,7 +42,7 @@ export default function AppliedComplexity() {
 			<h2>ACS101: Introduction to Complexity & Applied Complexity</h2>
 			<h3 className="metadata">Course Notes, Spring 2021</h3>
 			<div className="post">
-				<p>This is a collection of my notes from <a href="https://jwnorman.com/">Joe Norman</a>'s course, <a href="https://appliedcomplexity.io/education">Introduction to Complexity & Applied Complexity</a>. Basically, the goal here is to create a detailed text version of the lectures, for studying and review.</p>
+				<p>A collection of my notes from <a href="https://jwnorman.com/">Joe Norman</a>'s course, <a href="https://appliedcomplexity.io/education">Introduction to Complexity & Applied Complexity</a>. Basically, the goal here is to create a detailed text version of the lectures, for studying and review.</p>
 				<br/>
 				<br/>
 				<div className="modules">
