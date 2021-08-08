@@ -3,6 +3,7 @@
 # private content
 /src/assets/ACS101/notes
 TODO.md
+src/password.json
 
 # dependencies
 /node_modules

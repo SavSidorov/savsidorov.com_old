@@ -51,6 +51,7 @@ const Styles = styled.div`
 		display:flex;
 		justify-content: center;
 		align-self: center;
+		margin-top: 10px;
 	}
 
 	img {

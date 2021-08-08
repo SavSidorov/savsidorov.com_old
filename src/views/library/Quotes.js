@@ -370,6 +370,16 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
+            “Salus populi suprema lex esto.”
+          </p>
+        </div>
+        <p>
+          — Cicero
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
             “Ulula cum lupis cum quibus esse cupis.”
           </p>
         </div>

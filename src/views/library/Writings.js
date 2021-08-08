@@ -53,7 +53,7 @@ export default function Writings() {
 
 			<br />
 			
-			<h4>Articles</h4>
+			<h4>Essays & Articles</h4>
 			<div>
 				<p><b><a href="https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html">The Cook and the Chef</a></b> — Tim Urban</p>
 				<p><b><a href="https://waitbutwhy.com/2019/08/story-of-us.html">The Story of Us</a></b> — Tim Urban</p>
@@ -64,6 +64,7 @@ export default function Writings() {
 				<p><b><a href="https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/">Universal Love, Said The Cactus Person</a></b> — Scott Alexander</p>
 				<p><b><a href="https://www.lorenzospaggiari.com/wp-content/uploads/2019/04/Watson-1993.pdf">Succeeding in Science: Some Rules of Thumb</a></b> —  James D. Watson</p>
 				<p><b><a href="https://www.maa.org/external_archive/devlin/LockhartsLament.pdf">A Mathematician’s Lament</a></b> — Paul Lockhart</p>
+				<p><b><a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/">There’s more to mathematics than rigour and proofs</a></b> — Terry Tao</p>
 				<p><b><a href="http://worrydream.com/refs/Hofstadter%20-%20Analogy%20as%20the%20Core%20of%20Cognition.pdf">Analogy as the Core of Cognition</a></b> — Douglas Hofstadter</p>
 				<p><b><a href="https://numinous.productions/ttft/">How can we develop transformative tools for thought?</a></b> — Andy Matuschak and Michael Nielsen</p>
 				<p><b><a href="http://www.paulgraham.com/conformism.html">The Four Quadrants of Conformism</a></b> — Paul Graham</p>

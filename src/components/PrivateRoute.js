@@ -1,13 +1,13 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom'
+import data from "../password.json"
 
 class PrivateRoute extends React.Component {
   render() {
     const Component = this.props.component;
-    const isAuthenticated = localStorage.getItem('password');
-    console.log(isAuthenticated)
+    const input = localStorage.getItem('password');
   
-    return isAuthenticated === 'localism' ? (
+    return input === data.password ? (
         <Component />
     ) : (
         <Redirect to={{ pathname: '/login' }} />
