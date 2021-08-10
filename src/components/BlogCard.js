@@ -8,13 +8,8 @@ const Styles = styled.div`
 		height: 375px;
 
 		font-size: 20px;
-		padding: 15px;
-		margin-top: 30px;
-		margin-bottom: 50px;
 
 		box-shadow: 2px 2px 10px 4px #888888;
-
-		overflow: hidden;
 
 		&:hover {
 			box-shadow: 2px 2px 10px 2px #888888;
@@ -32,10 +27,8 @@ const Styles = styled.div`
 	}
 
 	.BlogCard > a > img {
-		min-height: 50px
-		height: 25vw;
-		max-height: 250px;
-		width: auto;
+		width: 375px;
+		height: 270px;
 	}
 
 	.BlogCard > a > div {
@@ -45,11 +38,11 @@ const Styles = styled.div`
 		align-items: center;
 		margin-top: 20px;
 	}
-
-	}
 `;
 
-export default function BlogCard({ image, title, description, path, date, readingtime }) {
+
+
+export default function BlogCard({ image, title, path, date }) {
 	return (
 		<Styles>
 			<div className="BlogCard">
@@ -58,7 +51,7 @@ export default function BlogCard({ image, title, description, path, date, readin
 					<div>
 						<h4>{title}</h4>
 						<p>
-							{date} {readingtime ? " • " + readingtime : null}
+							{date} 
 						</p>
 					</div>
 				</Link>

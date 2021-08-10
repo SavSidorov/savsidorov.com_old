@@ -39,10 +39,8 @@ export default function Projects() {
 				key={card.id}
 				image={card.image}
 				title={card.title}
-				description={card.description}
 				path={card.path}
 				date={card.date}
-				readingtime={card.readingtime}
 			/>
 		));
 
