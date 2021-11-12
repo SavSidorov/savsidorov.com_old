@@ -46,26 +46,26 @@ export default function AppliedComplexity() {
 				<br/>
 				<br/>
 				<div className="modules">
-					<ACSModule image={module0_image} pdf={module0_pdf} />
-					<ACSModule image={module1_image} pdf={module1_pdf} />
-					<ACSModule image={module2_image} pdf={module2_pdf} />
-					<ACSModule image={module3_image} pdf={module3_pdf} />
-					<ACSModule image={module4_image} pdf={module4_pdf} />
+					<ACSModule image={module0_image} link={module0_pdf} />
+					<ACSModule image={module1_image} link={module1_pdf} />
+					<ACSModule image={module2_image} link={module2_pdf} />
+					<ACSModule image={module3_image} link={module3_pdf} />
+					<ACSModule image={module4_image} link={module4_pdf} />
 					<ACSModule image={module5_image} />
 					<ACSModule image={module6_image} />
 					<ACSModule image={module7_image} />
 					<ACSModule image={module8_image} />
 					<ACSModule image={module9_image} />
 					<ACSModule image={module10_image} />
-					<ACSModule image={module11_image} pdf={module11_pdf} />
+					<ACSModule image={module11_image} link={module11_pdf} />
 					<ACSModule image={module12_image} />
 					<ACSModule image={module13_14_image} />
 					<ACSModule image={module15_image} />
 					<ACSModule image={module16_17_image} />
-					<ACSModule image={module18_image} pdf={module18_pdf} />
+					<ACSModule image={module18_image} link={module18_pdf} />
 					<ACSModule image={module19_image} />
-					<ACSModule image={module20_image} pdf={module20_pdf} />
-					<ACSModule image={module21_image} pdf={module21_pdf} />
+					<ACSModule image={module20_image} link={module20_pdf} />
+					<ACSModule image={module21_image} link={module21_pdf} />
 				</div>
 			</div>
 		</BlogStyle>

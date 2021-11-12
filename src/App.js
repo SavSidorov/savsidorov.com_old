@@ -26,7 +26,7 @@ import Projects from "./views/Projects";
 	import Project9 from "./views/projects/2021-03/post";
 import Quotes from "./views/library/Quotes"
 import Writings from "./views/library/Writings"
-import Speeches from "./views/library/Speeches"
+import Talks from "./views/library/Talks"
 import People from "./views/library/People"
 import About from "./views/About";
 import Contact from "./views/Contact";
@@ -67,7 +67,7 @@ function Routes() {
 
 				<Route exact path="/library/quotes" component={Quotes} />
 				<Route exact path="/library/writings" component={Writings} />
-				<Route exact path="/library/speeches" component={Speeches} />
+				<Route exact path="/library/talks" component={Talks} />
 				<Route exact path="/library/people" component={People} />
 
 				<Route exact path="/contact" component={Contact} />

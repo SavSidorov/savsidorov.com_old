@@ -37,7 +37,7 @@ export default function Navigation() {
       <div className="library-nav">
         <h3><NavLink to="/library/quotes" activeClassName="selected" >Quotes</NavLink>/</h3>
         <h3><NavLink to="/library/writings" activeClassName="selected" >Writings</NavLink>/</h3>
-        <h3><NavLink to="/library/speeches" activeClassName="selected">Speeches</NavLink>/</h3>
+        <h3><NavLink to="/library/talks" activeClassName="selected">Talks</NavLink>/</h3>
         <h3><NavLink to="/library/people" activeClassName="selected">People</NavLink></h3>
       </div>
 		</Styles>

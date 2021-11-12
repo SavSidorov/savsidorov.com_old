@@ -21,11 +21,11 @@ const Styles = styled.div`
 	}
 `;
 
-export default function ACSModule({ image, pdf }) {
+export default function ACSModule({ image, link }) {
 	return (
 		<Styles>
 			<div className="ACSCard">
-				<a href={pdf}>
+				<a href={link}>
 					<img src={image} alt="module-pic" />
 				</a>
 			</div>
