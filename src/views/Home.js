@@ -55,8 +55,10 @@ const Styles = styled.div`
 	}
 
 	img {
+		box-shadow: 1px 1px 10px 0px #888888;
+
 		&:hover {
-			box-shadow: 2px 2px 10px 2px #888888;
+			box-shadow: 0px 0px 10px -3px #888888;
 		}
 	}
 

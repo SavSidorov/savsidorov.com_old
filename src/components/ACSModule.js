@@ -5,11 +5,11 @@ const Styles = styled.div`
 	.ACSCard {
 		width: 165px;
 		height: 250px;
-		box-shadow: 2px 2px 10px 4px #888888;
 		overflow: hidden;
+		box-shadow: 2px 2px 10px 3px #888888;
 
 		&:hover {
-			box-shadow: 2px 2px 10px 2px #888888;
+			box-shadow: 1px 1px 10px 0px #888888;
 		}
 	}
 

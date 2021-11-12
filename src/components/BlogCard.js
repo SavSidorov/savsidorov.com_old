@@ -6,13 +6,11 @@ const Styles = styled.div`
 	.BlogCard {
 		width: 375px;
 		height: 375px;
-
 		font-size: 20px;
-
-		box-shadow: 2px 2px 10px 4px #888888;
+		box-shadow: 2px 2px 10px 3px #888888;
 
 		&:hover {
-			box-shadow: 2px 2px 10px 2px #888888;
+			box-shadow: 1px 1px 10px 0px #888888;
 		}
 	}
 
