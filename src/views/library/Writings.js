@@ -25,12 +25,23 @@ a{
 	}
 }
 
+h4 {
+	margin-top: 40px;
+}
+
 .books {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 165px));
 	grid-gap: 3em;
 
+	margin-top: 30px;
+	margin-bottom: 50px;
+
 	justify-content: center;
+}
+
+.list > *{
+	margin-left: 40px;
 }
 `;
 
@@ -40,30 +51,24 @@ export default function Writings() {
       <Navigation/>
 			<p>These are the books and shorter writings that have stuck with me and shaped my worldview. See more books on my <b><a href="https://www.goodreads.com/user/show/74501550-sav-sidorov">Goodreads</a></b>.</p>
 		
-			<br/>
-		
 			<h4>Books</h4>
-			<br />
 			<div className="books">
 					<ACSModule image={zerotoone} link="https://www.goodreads.com/book/show/18050143-zero-to-one" />
 					<ACSModule image={machiavellians} link="https://www.goodreads.com/book/show/1270379.The_Machiavellians" />
 					<ACSModule image={finiteandinfinitegames} link="https://www.goodreads.com/book/show/189989.Finite_and_Infinite_Games" />
-					<ACSModule image={procrustes} link="https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes" />
+					<ACSModule image={procrustes} link="https://savsidorov.substack.com/p/50-quotes-from-the-bed-of-procrustes" />
 					<ACSModule image={geb} link="https://www.goodreads.com/book/show/24113.G_del_Escher_Bach" />
 					<ACSModule image={timelessway} link="https://www.goodreads.com/book/show/106728.The_Timeless_Way_of_Building" />
 			</div>
-			<br />
-
-			<br />
 			
 			<h4>Essays & Articles</h4>
-			<div>
+			<div className="list">
 				<p><b><a href="https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/">
 					Conflict vs Mistake</a></b> — Scott Alexander</p>
+				<p><b><a href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">
+					Meditations on Moloch</a></b> — Scott Alexander</p>
 				<p><b><a href="https://slatestarcodex.com/2018/10/30/sort-by-controversial/">
 					Sort By Controversial</a></b> — Scott Alexander</p>
-				<p><b><a href="https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/">
-					Universal Love, Said The Cactus Person</a></b> — Scott Alexander</p>
 				<p><b><a href="https://emersoncentral.com/texts/representative-men/uses-of-great-men/">
 					Uses of Great Men</a></b> — Ralph Waldo Emerson</p>
 
@@ -118,13 +123,14 @@ export default function Writings() {
 				<p><b><a href="https://urbit.org/blog/a-founders-farewell/">
 					A Founder's Farewell</a></b> — Curtis Yarvin</p>	
 				<p><b><a href="https://graymirror.substack.com/p/a-speech-code-for-dissidents">
-					A speech code for dissidents</a></b> — Curtis Yarvin</p>		
+					A speech code for dissidents</a></b> — Curtis Yarvin</p>
+
+				<p><b><a href="https://urbit.org/blog/on-christopher-alexander">
+					On Christopher Alexander</a></b> — ~tirwyd-sarmes</p>		
 			</div>
-			
-			<br />
 
 			<h4>Interviews</h4>
-			<div>
+			<div className="list">
 				<p><b><a href="https://niccolo.substack.com/p/the-dubrovnik-interviews-marc-andreessen">
 					The Dubrovnik Interviews: Marc Andreessen - Interviewed by a Retard</a></b></p>
 				<p><b><a href="https://www.interferenza.net/bcs/interw/66-jan.htm">
@@ -134,17 +140,33 @@ export default function Writings() {
 				<p><b><a href="https://im1776.com/2021/09/03/curtis-yarvin-interview/">
 					Curtis Yarvin: An Interview</a></b></p>		
 			</div>
-
-			<br />
 			
 			<h4>Short Stories</h4>
-			<div>
+			<div className="list">
 				<p><b><a href="https://www.ndsu.edu/pubweb/~cinichol/CreativeWriting/323/OBrienWarStory.pdf">
 					How to Tell a True War Story</a></b> — Tim O'Brien</p>
 				<p><b><a href="https://savsidorov.substack.com/p/the-youth-a-translation">
 					Молодняк / The Youth</a></b> — Aleksandr Solzhenitsyn</p>		
 				<p><b><a href="http://sdavidmiller.com/octo/files/no_google2/GoodOldNeon.pdf">
 					Good Old Neon</a></b> — David Foster Wallace</p>
+			</div>
+
+			<h4>Poetry</h4>
+			<div className="list">
+				<p><b><a href="https://www.nickcave.com/lyric/bright-horses/">
+					Bright Horses</a></b> — Nick Cave</p>
+				<p><b><a href="https://www.nickcave.com/lyric/fireflies/">
+					Fireflies</a></b> — Nick Cave</p>
+				<p><b><a href="https://genius.com/Nick-cave-and-the-bad-seeds-steve-mcqueen-annotated">
+					Steve McQueen</a></b> — Nick Cave</p>
+
+				<p><b><a href="https://www.poetryfoundation.org/poems/46565/ozymandias">
+					Ozymandias</a></b> — Percy Shelley</p>
+				<p><b><a href="https://graymirror.substack.com/p/projection">
+					Projection</a></b> — Curtis Yarvin</p>
+
+				<p><b><a href="https://simonov.co.uk/typomnish">
+					Ты помнишь, Алеша, дороги Смоленщины</a></b> — Константин Симонов</p>
 			</div>
 		</Styles>
 	);
