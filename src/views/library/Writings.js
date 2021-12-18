@@ -115,6 +115,8 @@ export default function Writings() {
 					Succeeding in Science: Some Rules of Thumb</a></b> —  James D. Watson</p>
 				<p><b><a href="https://www.edge.org/response-detail/23879">
 					Excellence</a></b> — Eric Weinstein</p>
+				<p><b><a href="https://www.stephenwolfram.com/publications/mathematical-notation-past-future/">
+					Mathematical Notation: Past and Future</a></b> — Stephen Wolfram</p>
 				<p><b><a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/">
 					Finally We May Have a Path to the Fundamental Theory of Physics… and It’s Beautiful</a></b> — Stephen Wolfram</p>
 							
@@ -137,6 +139,8 @@ export default function Writings() {
 					Playboy Interview: Bob Dylan</a></b></p>
 				<p><b><a href="https://www.wmagazine.com/story/frank-ocean-cover-story-interview">
 					Frank Ocean Makes Moves Like Nobody Else</a></b></p>
+				<p><b><a href="https://medium.com/re-form/the-utopian-ui-architect-34dead42a28">
+					The Utopian UI Architect</a></b></p>	
 				<p><b><a href="https://im1776.com/2021/09/03/curtis-yarvin-interview/">
 					Curtis Yarvin: An Interview</a></b></p>		
 			</div>
@@ -153,12 +157,18 @@ export default function Writings() {
 
 			<h4>Poetry</h4>
 			<div className="list">
+				<p><b><a href="https://allpoetry.com/The-Genius-Of-The-Crowd?page=1">
+					The Genius Of The Crowd</a></b> — Charles Bukowski</p>
+				<p><b><a href="https://www.poeticous.com/charles-bukowski/style-is-the-answer-to-everything">
+					Style</a></b> — Charles Bukowski</p>
 				<p><b><a href="https://www.nickcave.com/lyric/bright-horses/">
 					Bright Horses</a></b> — Nick Cave</p>
 				<p><b><a href="https://www.nickcave.com/lyric/fireflies/">
 					Fireflies</a></b> — Nick Cave</p>
-				<p><b><a href="https://genius.com/Nick-cave-and-the-bad-seeds-steve-mcqueen-annotated">
+				<p><b><a href="https://songsear.ch/song/Nick-Cave-The-Bad-Seeds/Steve-McQueen/3730998">
 					Steve McQueen</a></b> — Nick Cave</p>
+				<p><b><a href="https://songsear.ch/song/Nick-Cave-and-the-Bad-Seeds-Dirty-Three/The-snake-became-a-serpent/5212660">
+					The snake became a serpent</a></b> — Nick Cave</p>
 
 				<p><b><a href="https://www.poetryfoundation.org/poems/46565/ozymandias">
 					Ozymandias</a></b> — Percy Shelley</p>

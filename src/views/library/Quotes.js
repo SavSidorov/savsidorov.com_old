@@ -280,6 +280,26 @@ export default function Quotes() {
         <div className="quote">
           <div />
           <p>
+            “There are decades where nothing happens; and there are weeks where decades happen.”
+          </p>
+        </div>
+        <p>
+          — Vladimir Ilyich Lenin
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
+            “Hegel remarks somewhere that all great, world-historical facts and personages occur, as it were, twice. He has forgotten to add: the first time as tragedy, the second as farce.”
+          </p>
+        </div>
+        <p>
+          — Karl Marx
+        </p>
+
+        <div className="quote">
+          <div />
+          <p>
             “Reasonable people adapt themselves to the world. Unreasonable people attempt to adapt the world to themselves. All progress, therefore, depends on unreasonable people.”
           </p>
         </div>
