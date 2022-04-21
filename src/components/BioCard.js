@@ -1,11 +1,12 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Styles = styled.div`
 .InfoCard{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 1000px;
 	min-height: 300px;
 	box-shadow: 1px 1px 10px 0px #888888;
 	margin-bottom: 50px;
@@ -52,7 +53,7 @@ h4{
 }
 
 p {
-	font-size: 20px;
+	font-size: 17.25px;
 }
 
 a {
@@ -66,6 +67,10 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
+	.InfoCard {
+		width: auto;
+	}
+
 	.InfoCard > div {
 		display: flex;
 		flex-flow: column;
@@ -86,21 +91,25 @@ a {
 		max-height: 300px;
 		max-width: 300px;
 	}
+
+	p {
+		width: 80%;
+	}
 }
 `;
 
-export default function BioCard({ image, title, p1, p2, p3, p4 }) {
+export default function BioCard({ image1, image2, title, p1, p2, p3 }) {
 	return (
 		<Styles>
 			<div className="InfoCard">
-        <img className="sideImage" src={image} alt="bio-pic" />
-        <div>
-					<img className="topImage" src={image} alt="bio-pic" />
-          <h4>{title}</h4>
-          {p1}
+				<img className="sideImage" src={image1} alt="bio-pic" />
+				<div>
+					<img className="topImage" src={image2} alt="bio-pic" />
+					<h4>{title}</h4>
+					{p1}
 					{p2}
 					{p3}
-        </div>
+				</div>
 			</div>
 		</Styles>
 	);
